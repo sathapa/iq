@@ -1,0 +1,25 @@
+SalesOrder#,LineKey,Step,WHCode,ItemCode,ItemCodeDesc,ActivityCode,ActivityDesc,JobStatus,ActualQuantity,EstimatedQuantiy,UOM,TimeTaken,EstimatedTime,LotBatchNumber,Comments,UpdateBy,UpdateOn
+0088786,001,000,181,BNS38D,"BNS38D : BayNets Safety System 3/8in Drain Pan, Lock One End
+ Pit Size: 5.00 FT x 13.00 FT
+ Net Size: 4.33 FT x 3.50 FT
+ Number of Nets per Bay: 2
+3 Drain Pan of Length: 2 FT
+SOMETHING SPECIAL",DFLT,"Default Activity Code","Not Started",0,1,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,050,181,218-060-06,"820BK HTPP Black 2.5in Sq
+ MESH COUNT =18 x 22",CUTS,"Cut Square",Completed,17.3,17.3,SF,35,N/A,N/A,"This is a test 1",alexm,2017-11-20T21:15:28.996672
+0088786,001,060,181,HR112G,"Hog Ring 1-1/2in Galvanized",HOGR,Hogring,Completed,18,18,EA,5.23,N/A,N/A,"This is a Test 2",alexm,2017-11-20T21:15:39.563627
+0088786,001,080,181,RPYB025BK,"MFP Braid 1/4in x 1000ft Black",MLGO,"Machine Large Overlock",Completed,16.14,16.14,FT,35.5,N/A,N/A,N/A,alexm,2017-11-20T21:12:08.643536
+0088786,001,200,181,RPS3S050BK,"HTPP ProManila 3 Strand 1/2in x 600ft BlackHTPP ProManila 3 Strand 1/2in 
+ROPE MARKING : 8 in - 2.17 ft - 3.50 ft - 4.33  ft - 3.50 ft - 2.17 ft | 8 in",CWS,"Cut, Weave & Splice","Not Started",0,17.51,FT,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,330,181,AL1236,"Alum Ferrule 1/2in Soft Rope",FRP3,"Uniflex HM325 die 2985C","Not Started",0,2,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,ROD58X3ZG,"Steel Rod 5/8in x3ft Zinc Galv",PACK,"Other Packaged Items","Not Started",0,1,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,SH080ZP,"Snap Hook 120mm ZP",PACK,"Other Packaged Items","Not Started",0,12,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,SH120ZP,"Snap Hook 120mm ZP",PACK,"Other Packaged Items","Not Started",0,7,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,TB126G,"1/2 x 6 Jaw  Eye Turnbuckle",PACK,"Other Packaged Items","Not Started",0,2,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,TM38G,"3/8 Galv Thimble",PACK,"Other Packaged Items","Not Started",0,2,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,BN-CABLUG,"1/2in x 2in x 3.25in Mild Steel with Two 5/8in Drill Thrus1/2in x 2in x 3.25in Mild Stee",PACK,"Other Packaged Items","Not Started",0,2,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,CAB3820BN,"3/8in x 20ft 7x19 GAC w/ Thimble Eye and Plate Assy, Tape other End3/8in x 20ft 7x19 GAC w/ Thimb",PACK,"Other Packaged Items","Not Started",0,2,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,CC38G,"3/8 Cable Clamp",PACK,"Other Packaged Items","Not Started",0,6,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,PE38F,"Pad Eye 3/8 Weldable
+3/4"" I.D.Pad Eye 3/8 Weldable",PACK,"Other Packaged Items","Not Started",0,8,EA,N/A,N/A,N/A,N/A,N/A,N/A
+0088786,001,899,181,QL10ZP,"Quicklink 10mm ZP",PACK,"Other Packaged Items","Not Started",0,26,EA,N/A,N/A,N/A,N/A,N/A,N/A

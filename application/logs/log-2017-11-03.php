@@ -1,0 +1,50 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-11-03 02:26:17 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 737
+ERROR - 2017-11-03 02:26:17 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 748
+ERROR - 2017-11-03 04:22:18 --> Severity: Notice --> Undefined index: shipp_method /var/www/html/application/views/frontend/order_page.php 55
+ERROR - 2017-11-03 05:51:17 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 744
+ERROR - 2017-11-03 05:51:17 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 755
+ERROR - 2017-11-03 05:51:29 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 744
+ERROR - 2017-11-03 05:51:29 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 755
+ERROR - 2017-11-03 05:51:34 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 744
+ERROR - 2017-11-03 05:51:34 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 755
+ERROR - 2017-11-03 05:53:02 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 744
+ERROR - 2017-11-03 05:53:02 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 755
+ERROR - 2017-11-03 05:55:54 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 05:55:54 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 05:57:39 --> Severity: Compile Warning --> Unterminated comment starting line 483 /var/www/html/application/helpers/common_helper.php 483
+ERROR - 2017-11-03 05:57:49 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 05:57:49 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 06:34:50 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 06:34:50 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 07:07:16 --> Severity: error --> Exception: syntax error, unexpected end of file /var/www/html/application/views/frontend/managequote.php 670
+ERROR - 2017-11-03 12:48:53 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 12:48:53 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 12:49:36 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 12:49:36 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 12:52:08 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 12:52:08 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 12:56:20 --> Severity: Notice --> Undefined index: shipp_method /var/www/html/application/views/frontend/order_page.php 55
+ERROR - 2017-11-03 13:17:52 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:17:52 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:18:03 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:18:03 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:23:44 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:23:44 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:24:37 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:24:37 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:24:43 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:24:43 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:26:10 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:26:10 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:26:15 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 13:26:15 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 13:34:33 --> Severity: Notice --> Undefined index: shipp_method /var/www/html/application/views/frontend/order_page.php 55
+ERROR - 2017-11-03 14:19:09 --> Severity: Notice --> Undefined index: shipp_method /var/www/html/application/views/frontend/order_page.php 55
+ERROR - 2017-11-03 16:23:42 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 16:23:42 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 17:24:29 --> Severity: Notice --> Undefined index: shipp_method /var/www/html/application/views/frontend/order_page.php 55
+ERROR - 2017-11-03 18:09:36 --> Severity: Notice --> Undefined variable: division /var/www/html/application/views/frontend/index.php 745
+ERROR - 2017-11-03 18:09:36 --> Severity: Notice --> Undefined variable: territory /var/www/html/application/views/frontend/index.php 756
+ERROR - 2017-11-03 18:55:32 --> Severity: Notice --> Undefined index: shipp_method /var/www/html/application/views/frontend/order_page.php 55

@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-07-29 05:00:12 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 05:00:13 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 05:00:13 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:14 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:14 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:14 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:18 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:18 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:19 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:19 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:19 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:51 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:58:52 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:04 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:05 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:05 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:11 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:11 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:18 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:18 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:18 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:18 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:19 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:36 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:37 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:37 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:37 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:37 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:42 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15
+ERROR - 2017-07-29 23:59:42 --> Severity: Notice --> Undefined property: CI_Loader::$user_group /var/www/html/application/views/frontend/sidebar.php 15

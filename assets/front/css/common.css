@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0; outline:0; box-sizing:border-box;}.nobdr { border:none !important;}
+.nobg { background:none !important;}
+.nobdr_top{ border-top:none !important; }
+.nomargin { margin:0px !important;}
+.nomargin-top{margin-top:0 !important; }
+.nomargin-left { margin-left:0px !important;}
+.nomargin-right { margin-right:0px !important;}
+.nopadding { padding:0px !important;}
+.alignbottom{ vertical-align:text-top;}img { height: auto; border:0;}
+ul { list-style-type:none; padding:0; margin:0px;}
+.hardware-head-ul ul { list-style-type:none; padding:0; margin-top:10px;}
+ul li { list-style:none; padding:0; margin:0; }
+a { text-decoration:none; outline:none;}
+
+.clear { padding:0; margin:0; clear:both;}
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0;}
+html, body { height: 100%; width: 100%; padding: 0; margin: 0;}
+.cf:before, .cf:after { content: " "; display: table;}
+.cf:after { clear: both;}
+.cf { *zoom: 1;}
+body { margin:0px; padding:0px; width:100%; overflow-x:hidden; position:relative;}
+html { margin:0px; padding:0px; }
+
+::placeholder {color:#686868;opacity: 1;}
+::-webkit-input-placeholder {color:#686868;opacity: 1;}
+::-moz-placeholder {color: #686868;opacity: 1;}
+::-ms-placeholder {color:#686868;opacity: 1;}
+/*@font-face {
+    font-family:'Aileron Light';
+    src: url('fonts/Aileron Light.eot');
+	src: url('fonts/Aileron Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Aileron Light.woff2') format('woff2'),
+		url('fonts/Aileron Light.woff') format('woff'),
+		url('fonts/Aileron Light.svg#Aileron Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+@font-face {
+    font-family: 'AileronLightItalic';
+    src: url('fonts/AileronLightItalic.eot');
+    src: url('fonts/AileronLightItalic.eot') format('embedded-opentype'),
+         url('fonts/AileronLightItalic.woff2') format('woff2'),
+         url('fonts/AileronLightItalic.woff') format('woff'),
+         url('fonts/AileronLightItalic.ttf') format('truetype'),
+         url('fonts/AileronLightItalic.svg#AileronLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'AileronRegular';
+    src: url('fonts/AileronRegular.eot');
+    src: url('fonts/AileronRegular.eot') format('embedded-opentype'),
+         url('fonts/AileronRegular.woff2') format('woff2'),
+         url('fonts/AileronRegular.woff') format('woff'),
+         url('fonts/AileronRegular.ttf') format('truetype'),
+         url('fonts/AileronRegular.svg#AileronRegular') format('svg');
+}
+@font-face {
+    font-family: 'AileronBold';
+    src: url('fonts/AileronBold.eot');
+    src: url('fonts/AileronBold.eot') format('embedded-opentype'),
+         url('fonts/AileronBold.woff2') format('woff2'),
+         url('fonts/AileronBold.woff') format('woff'),
+         url('fonts/AileronBold.ttf') format('truetype'),
+         url('fonts/AileronBold.svg#AileronBold') format('svg');
+}
+@font-face {
+    font-family: 'AileronSemiBold';
+    src: url('fonts/AileronSemiBold.eot');
+    src: url('fonts/AileronSemiBold.eot') format('embedded-opentype'),
+         url('fonts/AileronSemiBold.woff2') format('woff2'),
+         url('fonts/AileronSemiBold.woff') format('woff'),
+         url('fonts/AileronSemiBold.ttf') format('truetype'),
+         url('fonts/AileronSemiBold.svg#AileronSemiBold') format('svg');
+}*/
+/*************************************************
+Aileron font Rplace by MyriadPro
+**************************************************/
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('fonts/myriadpe-webfont.eot');
+    src: url('fonts/myriadpe-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/myriadpe-webfont.woff') format('woff'),
+         url('fonts/myriadpe-webfont.ttf') format('truetype'),
+         url('fonts/myriadpe-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('fonts/myriadp0.eot');
+    src: url('fonts/myriadp0.eot?#iefix') format('embedded-opentype'),
+         url('fonts/myriadp0.woff') format('woff'),
+         url('fonts/myriadp0.ttf') format('truetype'),
+         url('fonts/myriadp0.svg#myriadp0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+}
+.glyphicon-folder-open:before {
+  content: "\e118";
+}
+.glyphicon-remove:before {
+  content: "\e014";
+}
+
+.glyphicon-print:before {
+  content: "\e045";
+}
+.glyphicon.glyphicon-print {
+    margin-right: 5px;
+}
+
+.sidebar{ width:220px; z-index:99; height:100%; position:fixed; float:left; background:#0056b8 ; padding-top: 211px;}
+.logo{    background: #0056b8 none repeat scroll 0 0;
+    display: block;
+    left: 0;
+    padding: 43px 6px 43px 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 220px;
+    z-index: 999;}
+#navside{width:100%; height: 100%; overflow: auto;}
+#navside ul{list-style-type:none; display:block;} 
+#navside > #mCSB_1 > #mCSB_1_container > ul > li{float:left; position:relative; width:100%; border-top:1px solid #387bc8;}
+#navside ul li a{cursor: pointer; padding: 15px 24px; position:relative; display:block; color:#fff; box-sizing:border-box; font:15px/17px 'MyriadPro-Bold'; color:#fff;  }
+/*#navside ul.cd-navigation li.item-has-children a.active{ background:#0056b8; position:relative;}*/
+/*#navside ul.cd-navigation li.item-has-children a.active:after{position:absolute; background:url(../images/active.png) right center no-repeat; width:13px; height:20px; right:-7px; top:22px; content:""; display:block; z-index:99999; transform:none;}
+*/
+#navside ul.cd-navigation li a.active{background: #003a7d;}
+#navside ul li a img{margin-right:15px; vertical-align:middle;}
+#navside ul li ul.sub-menu{display:none; background:#01499b; }
+#navside ul li ul.sub-menu li a{padding-left:85px; position: relative;font:14px/16px 'MyriadProRegular';}
+#navside ul li ul.sub-menu li a:after{position:absolute; background:url(../images/nav_circle.png) right center no-repeat; width:13px; height:20px; left:60px; top:13px; content:""; display:block; z-index:99999;}
+#navside ul li ul.sub-menu li a:before{  background: #0056b8 none repeat scroll 0 0;content: "";display: block;height: 69px;left: 69px;position: absolute;top: 0;width: 1px;}
+
+#navside ul li ul.sub-menu li{}
+#navside ul li ul.sub-menu li a img{vertical-align:middle; margin-right:15px;}
+#navside ul.cd-navigation li.item-has-children > a::after {background: url(../images/nav_open.png) no-repeat scroll right top; bottom: auto; content: "";
+    display: block; height: 8px; position: absolute;  right: 30px; top: 40%;  transition-duration: 0.2s; transition-property: transform;
+    width: 5px;}
+#navside ul.cd-navigation li.item-has-children > a.submenu-open::after {background: url(../images/li-nav-li.png) no-repeat scroll right top;width: 8px;}
+#navside ul.cd-navigation li.item-has-children > a.submenu-open{background: #01499b} 
+.top-bar{width:100%; float:left; -webkit-box-shadow: 0 8px 6px -6px #ccc;  -moz-box-shadow: 0 8px 6px -6px #ccc; box-shadow: 0 8px 6px -6px #ccc; height:60px;}
+.user-profile{float:right; position:relative; margin-right:20px; width:auto; margin-top:13px; cursor: pointer;}
+.user-profile figure{width:34px; text-align:center; height:34px; border:1px solid #ccc; padding:5px 0; box-sizing:border-box; border-radius:100%; display:inline-block; margin-right:5px;}
+.user-profile p{display:inline-block;}
+.user-profile figure img{width:75%; margin:0 auto}
+.user-profile {color:#818f9f; font:13px/13px 'MyriadProRegular';}
+.user-profile img{display:inline-block; vertical-align:middle; margin-right:7px;}
+.user-profile span{display:inline-block; vertical-align:middle; margin-left:7px;}
+.user-profile ul{float:left; position:absolute; z-index:99; background:#fff; width:100%;  border:1px solid #efefef; border-radius:5px; left:0; top:47px;  display:none; list-style-type:none;}
+.user-profile ul li{float:left; width:100%;  }
+.user-profile ul li a{color:#818f9f; font:13px/13px 'MyriadProRegular'; background:#0056b8; display:block; padding:10px; border-radius:0 0 5px 5px; text-transform:uppercase; color:#fff; font:13px/13px 'MyriadProRegular'; text-align:center}
+/*slidebar scroll css*/
+.sidebar .mCSB_container {margin-right: 0 !important;}
+.sidebar .mCS-rounded.mCSB_scrollTools .mCSB_draggerRail{ background-color: #0090d3 ; background-color:rgba(255,255,255, 0.9)!important; }
+.sidebar .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color:rgba(255,255,255, 0.9)!important;}
+#navside{ }
+.product-category ul{display:none;}
+.product-category-checkbox {margin-top:0px;}
+.product-category-label {margin-top:10px;}

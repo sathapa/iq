@@ -1,0 +1,12 @@
+"Sales Order#","Customer Name","WT Class",Division,Amount,Freight,"Order Status","Shipping Location","Ship Expire ","Ship Via",Weight
+0091356,"Integrated Systems Group",IND,30,582,58.78,,430,17-Jan-2018,"PPD GRD",29
+0091095,"MHS- Material Handling Sales",IND,30,3332,337,,430,17-Jan-2018,"PPD GRD",329
+0090789,"Warehouse One, Inc.",IND,30,6201,00,,430,17-Jan-2018,"3RD PTY",666
+0091275,InCord,MTS,70,00,00,Close,000,17-Jan-2018,,528
+0091241,"American Fence Company",PLA,50,768,108.28,,000,17-Jan-2018,"PPD GRD",12
+0091269,"Farmtastic Fun Inc",PLA,50,4420,00,,000,17-Jan-2018,COLLECT,1
+0091411,"Superior Intl. Industries, Inc",PLA,50,957,00,,000,17-Jan-2018,"3RD PTY",00
+0091321,"Eagle Industries of Louisiana",SAF,10,2500,00,,181,17-Jan-2018,COLLECT,112
+0091120,"Greenwald Supply Direct, LLC",SAF,10,2361,00,,181,17-Jan-2018,COLLECT,253
+0090709,"Stonebridge, Inc,",SAF,10,22694,00,,181,17-Jan-2018,"PPD GRD",3131
+0090713,"Stonebridge, Inc,",SAF,10,2308,00,,181,17-Jan-2018,"PPD GRD",197

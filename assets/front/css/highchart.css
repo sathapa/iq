@@ -1,0 +1,10 @@
+.first-row{ float:left; width:33.33%; border-right:1px solid #ccc; padding-right:10px;  border-bottom:1px solid #ccc;height:242px;}
+.first-row:last-child{ border-right:none; width:33.33%; padding-right:0px;}
+.color-code{ width:100%; display:block; padding:10px;  border-bottom:1px solid #ccc; float:left;}
+.color-code ul li{ float:left; padding-right:10px;}
+.color-code ul li label{font:13px/21px "MyriadProRegular"; color:#435158; padding-left: 7px; display: inline-block;}
+.color-code .color-code0{ display:inline-block; width:15px; height:15px; border:1px solid #ccc; float:left; margin-top:3px; background:#ccc;}
+.color-code .color-code1{ display:inline-block; width:15px; height:15px; border:1px solid #7cb5ec; float:left; margin-top:3px; background:#7cb5ec;}
+.color-code .color-code2{ display:inline-block; width:15px; height:15px; border:1px solid #434348; float:left;margin-top:3px; background:#434348;}
+.color-code .color-code3{ display:inline-block; width:15px; height:15px; border:1px solid #90ed7d; float:left;margin-top:3px; background:#90ed7d;}
+.color-code .color-code4{ display:inline-block; width:15px; height:15px; border:1px solid #f7a35c; float:left;margin-top:3px; background:#f7a35c;}

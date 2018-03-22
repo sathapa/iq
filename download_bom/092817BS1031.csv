@@ -1,0 +1,361 @@
+"Sage Order#","Proposal Number",Tag#,Product,"Product Description","# of Nets","Item Description","Item Code",QuantityPerNet,TotalQuantity,UOM,Step,"Activity Code","Expected Labor Time","Total Expected Labor Time","Actual Labor Time","Shipping Location","Product Location","Inventory Location","Expected Shipping Date",LOT,Notes
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"92.71 SF PER NET; 820BK HTPP Black 2.5in Sq; MESH COUNT =172 x 13",218-060-06,190.97441,190.97441,SF,050,CUTS,0.18979,0.18979,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Alum Ferrule 1/2in Soft Rope",AL1236,2,2,EA,060,FRP3,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"64.00 FT PER NET; Hog Ring 1-1/2in Galvanized",HR112G,128,128,EA,070,HOGR,0.42667,0.42667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"73.01 FT PER NET; Polyester Braid 1/4in x 1000ft BlackPolyester Braid 1/4in x 1000ft",RPYB025BK,150.39373,150.39373,FT,200,MLGO,0.73007,0.73007,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"74.34 FT PER NET; HTPP ProManila 3 Strand 1/2in x 600ft BlackHTPP ProManila 3 Strand 1/2in ;ROPE MARKING : 8 in - 1.25 ft - 34.00 ft - 2.50  ft - 34.00 ft - 1.25 ft - 8 in",RPS3S050BK,153.13353,153.13353,FT,210,CWS,1.06195,1.06195,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"1/2in x 2in x 3.25in Mild Steel with Two 5/8in Drill Thrus1/2in x 2in x 3.25in Mild Stee",BN-CABLUG,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"3/8in x ------ft 7x19 GAC with thimbled eye/BN-CABLUG assy, braze other end
+$.36/LF + $8.603/8in x ------ft 7x19 GAC with; 70.00 FT CABLE",CAB38BN,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"3/8 Cable Clamp",CC38G,6,6,EA,899,PACK,0.1,0.1,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Pad Eye 3/8 Weldable
+3/4"" I.D.Pad Eye 3/8 Weldable",PE38F,12,12,EA,899,PACK,0.2,0.2,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Quicklink 10mm ZP",QL10ZP,114,114,EA,899,PACK,1.9,1.9,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Snap Hook 120mm ZP",SH120ZP,4,4,EA,899,PACK,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"1/2 x 6 Jaw  Eye Turnbuckle",TB126G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"3/8 Galv Thimble",TM38G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Quicklink 1/4in ZP",QL06ZP,6,6,EA,899,PACK,0.006,0.006,,430,181,181,,,
+,092817BS1031,"EXAMPLE 1",BNS38,"BayNets Safety System 3/8in Standard;Pit Size: 3.17 FT x 68.00 FT;Net Size: 2.50 FT x 34.00 FT;Number of Nets per Bay: 2;;Connecting Hardware included;Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"94.07 SF PER NET; 820BK HTPP Black 2.5in Sq; MESH COUNT =172 x 13",218-060-06,193.79315,193.79315,SF,050,CUTS,0.18989,0.18989,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Alum Ferrule 1/2in Soft Rope",AL1236,2,2,EA,060,FRP3,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"64.00 FT PER NET; Hog Ring 1-1/2in Galvanized",HR112G,128,128,EA,070,HOGR,0.42667,0.42667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"73.09 FT PER NET; Polyester Braid 1/4in x 1000ft BlackPolyester Braid 1/4in x 1000ft",RPYB025BK,150.55853,150.55853,FT,200,MLGO,0.73087,0.73087,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"74.42 FT PER NET; HTPP ProManila 3 Strand 1/2in x 600ft BlackHTPP ProManila 3 Strand 1/2in ;ROPE MARKING : 8 in - 1.27 ft - 34.00 ft - 2.54  ft - 34.00 ft - 1.27 ft - 8 in",RPS3S050BK,153.29833,153.29833,FT,210,CWS,1.0631,1.0631,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"1/2in x 2in x 3.25in Mild Steel with Two 5/8in Drill Thrus1/2in x 2in x 3.25in Mild Stee",BN-CABLUG,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8in x ------ft 7x19 GAC with thimbled eye/BN-CABLUG assy, braze other end
+$.36/LF + $8.603/8in x ------ft 7x19 GAC with; 70.00 FT CABLE",CAB38BN,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8 Cable Clamp",CC38G,6,6,EA,899,PACK,0.1,0.1,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Pad Eye 3/8 Weldable
+3/4"" I.D.Pad Eye 3/8 Weldable",PE38F,12,12,EA,899,PACK,0.2,0.2,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Quicklink 10mm ZP",QL10ZP,114,114,EA,899,PACK,1.9,1.9,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 120mm ZP",SH120ZP,4,4,EA,899,PACK,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"1/2 x 6 Jaw  Eye Turnbuckle",TB126G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8 Galv Thimble",TM38G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Quicklink 1/4in ZP",QL06ZP,6,6,EA,899,PACK,0.006,0.006,,430,181,181,,,
+,092817BS1031,"EXAMPLE 2",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.21 FT x 68.00 FT
+Net Size: 2.54 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"98.18 SF PER NET; 820BK HTPP Black 2.5in Sq; MESH COUNT =172 x 13",218-060-06,202.24937,202.24937,SF,050,CUTS,0.19021,0.19021,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Alum Ferrule 1/2in Soft Rope",AL1236,2,2,EA,060,FRP3,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"64.00 FT PER NET; Hog Ring 1-1/2in Galvanized",HR112G,128,128,EA,070,HOGR,0.42667,0.42667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"73.33 FT PER NET; Polyester Braid 1/4in x 1000ft BlackPolyester Braid 1/4in x 1000ft",RPYB025BK,151.05293,151.05293,FT,200,MLGO,0.73327,0.73327,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"74.66 FT PER NET; HTPP ProManila 3 Strand 1/2in x 600ft BlackHTPP ProManila 3 Strand 1/2in ;ROPE MARKING : 8 in - 1.33 ft - 34.00 ft - 2.66  ft - 34.00 ft - 1.33 ft - 8 in",RPS3S050BK,153.79273,153.79273,FT,210,CWS,1.06652,1.06652,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"1/2in x 2in x 3.25in Mild Steel with Two 5/8in Drill Thrus1/2in x 2in x 3.25in Mild Stee",BN-CABLUG,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8in x ------ft 7x19 GAC with thimbled eye/BN-CABLUG assy, braze other end
+$.36/LF + $8.603/8in x ------ft 7x19 GAC with; 70.00 FT CABLE",CAB38BN,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8 Cable Clamp",CC38G,6,6,EA,899,PACK,0.1,0.1,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Pad Eye 3/8 Weldable
+3/4"" I.D.Pad Eye 3/8 Weldable",PE38F,12,12,EA,899,PACK,0.2,0.2,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Quicklink 10mm ZP",QL10ZP,114,114,EA,899,PACK,1.9,1.9,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 120mm ZP",SH120ZP,4,4,EA,899,PACK,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"1/2 x 6 Jaw  Eye Turnbuckle",TB126G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8 Galv Thimble",TM38G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Quicklink 1/4in ZP",QL06ZP,6,6,EA,899,PACK,0.006,0.006,,430,181,181,,,
+,092817BS1031,"EXAMPLE 3",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.33 FT x 68.00 FT
+Net Size: 2.66 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"101.26 SF PER NET; 820BK HTPP Black 2.5in Sq; MESH COUNT =172 x 14",218-060-06,208.59153,208.59153,SF,050,CUTS,0.19045,0.19045,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Alum Ferrule 1/2in Soft Rope",AL1236,2,2,EA,060,FRP3,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"64.00 FT PER NET; Hog Ring 1-1/2in Galvanized",HR112G,128,128,EA,070,HOGR,0.42667,0.42667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"73.51 FT PER NET; Polyester Braid 1/4in x 1000ft BlackPolyester Braid 1/4in x 1000ft",RPYB025BK,151.42373,151.42373,FT,200,MLGO,0.73507,0.73507,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"74.84 FT PER NET; HTPP ProManila 3 Strand 1/2in x 600ft BlackHTPP ProManila 3 Strand 1/2in ;ROPE MARKING : 8 in - 1.38 ft - 34.00 ft - 2.75  ft - 34.00 ft - 1.38 ft - 8 in",RPS3S050BK,154.16353,154.16353,FT,210,CWS,1.0691,1.0691,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"1/2in x 2in x 3.25in Mild Steel with Two 5/8in Drill Thrus1/2in x 2in x 3.25in Mild Stee",BN-CABLUG,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8in x ------ft 7x19 GAC with thimbled eye/BN-CABLUG assy, braze other end
+$.36/LF + $8.603/8in x ------ft 7x19 GAC with; 70.00 FT CABLE",CAB38BN,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8 Cable Clamp",CC38G,6,6,EA,899,PACK,0.1,0.1,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Pad Eye 3/8 Weldable
+3/4"" I.D.Pad Eye 3/8 Weldable",PE38F,12,12,EA,899,PACK,0.2,0.2,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Quicklink 10mm ZP",QL10ZP,114,114,EA,899,PACK,1.9,1.9,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 120mm ZP",SH120ZP,4,4,EA,899,PACK,0.06667,0.06667,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"1/2 x 6 Jaw  Eye Turnbuckle",TB126G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"3/8 Galv Thimble",TM38G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Quicklink 1/4in ZP",QL06ZP,6,6,EA,899,PACK,0.006,0.006,,430,181,181,,,
+,092817BS1031,"EXAMPLE 4",BNS38,"BayNets Safety System 3/8in Standard
+Pit Size: 3.42 FT x 68.00 FT
+Net Size: 2.75 FT x 34.00 FT
+Number of Nets per Bay: 2
+
+Connecting Hardware included
+Installation Instruction included",1,"Snap Hook 80mm ZP",SH080ZP,14,14,EA,899,PACK,0.23333,0.23333,,430,181,181,,,

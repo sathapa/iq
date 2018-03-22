@@ -1,0 +1,437 @@
+#wrapper{width:100%; float:left; padding:0px; margin:0px;}
+.cf:before,.cf:after {content: " "; display: table;}
+.cf:after {clear: both;}	
+.right-bar{width:100%; position:absolute; left:0; top:65px; padding-left:220px; box-sizing:border-box;}
+.wrepper{ float:left; width:100%; clear:both; height:100%;}
+ ::-webkit-input-placeholder {color:#b1b7bb;}
+.form-section{float:left; width:100%; }
+.order-section{float:right; width:20.7%; background:#eff1f4; height:100%; min-height:600px; position:fixed; right:0; top:0; overflow:auto; padding-bottom:230px; display:none;}
+.final_quote .order-section{ display:block;}
+.top-head{width:94%; float:left; border-bottom:1px solid #e5e5e5;  padding-left: 10%;}
+.top-head h1{display:inline-block; color:#394347; font:17px/50px 'MyriadPro-Bold'; }
+.top-head a.print{float:right; margin-right:15px; color:#b1b7bb; font:13px/55px 'MyriadProRegular'; text-transform:uppercase;}
+.top-head a.print img{vertical-align:middle; margin-right:6px;}
+.top-head .back-btn {margin-right: 0;} 
+.top-head a.print:hover {color: #0056b8;}
+.form-group{width:100%; float:left; padding-bottom:14px; margin-bottom:15px; -webkit-box-shadow: 0 8px 6px -6px #ccc;  -moz-box-shadow: 0 8px 6px -6px #ccc; box-shadow: 0 8px 6px -6px #ccc; }
+.form-group h2{color:#293337; font:16px/30px 'MyriadPro-Bold';}
+.half{width:49%; float:left; position:relative;margin-right:2%;}
+.form-row.nine {width: 87%;margin-right:1%; float:left;}
+.form-row.one {width: 12%;float:left;}
+.half:last-child{ margin-right:0px;}
+.product-net{ margin-left:0px;}
+.half.product-net{ margin-right: 0px; margin-bottom: 10px; }
+.row{float:left; width:100%; margin-bottom:20px; margin-left: 0!important;margin-right: 0!important;}
+.row:last-child{margin-bottom: 0;}
+.option-value .row{margin-bottom: 20px;}
+.inner-form{width:80%; margin-left:10%; float:left; padding:40px 0;}
+.alert p {color:#435158; font: 300 16px/21px "MyriadProRegular";}
+.final_quote .inner-form {  margin-left: 3%; width: 71%;}
+.final_quote .top-head{width: 77%;}
+.inner-form .form-group .form-row label{color:#435158; font:13px/21px 'MyriadProRegular'; padding-bottom:5px; float:left; width:100%;}
+.inner-form .form-group .form-row input{ width:100%; height:38px; border-radius:3px; border:1px solid #bebfc3; padding:0 10px;color:#686868; font: 13px/13px"MyriadProRegular"}
+.inner-form .form-group .form-row input:focus{ border-color: #0056b8 ;}
+.selectboxit-container .selectboxit:focus{ border-color: #0056b8 ;}
+
+.inner-form .form-group .form-row select{ width:100%; height:38px; border-radius:3px; border:1px solid #bebfc3; padding:0 10px;}
+.inner-form .form-group .form-row textarea{ color: #686868;
+    font: 13px/13px "MyriadProRegular";width:100%; height:79px; border-radius:3px; border:1px solid #bebfc3; padding:6px 10px; resize:none;}
+.custom-override-proposal textarea{  padding-top: 11px!important;padding-bottom: 11px!important; }
+.selectboxit-container .selectboxit { border: 1px solid #bebfc3; border-radius: 3px; color: #bebfc3; cursor: pointer; display: block; height: 44px; margin: 0;overflow: hidden;
+ padding: 7px 15px; position: relative;  text-align: left;  width: 100% !important; background:#fff;}
+ .selectboxit-container .selectboxit:after{background:url(../images/select-arrow.png) right center no-repeat; width:7px; height:4px; position:absolute; content:""; display:block; right:10px; top:17px;}
+.selectboxit-container span, .selectboxit-container .selectboxit-options a { color: #686868;  font: 13px/22px 'MyriadProRegular'; height: 38px !important;}
+.selectboxit-container .selectboxit-options { border: 1px solid #bebfc3; border-radius: 0 0 3px 3px; box-shadow: none; box-sizing: border-box; cursor: pointer; display: none;
+ list-style: outside none none; margin: 0; min-width: 100% !important; max-height:250px; overflow-y:auto; padding: 0 0 0 15px; position: absolute; text-align: left; z-index: 999; background:#fff;}
+ .custom-select.custom-select-open input {
+    width: 95% !important;
+} 
+.three{width:32%; float:left; margin-right:2%; position:relative}
+.seven{width:66%; float:left; margin-right:2%; position:relative}
+.seven:last-child{margin-right:0px;}
+.three:last-child{margin-right:0px;}
+.three .selectboxit-container .selectboxit, .six .selectboxit-container .selectboxit, .four .selectboxit-container .selectboxit { border: 1px solid #bebfc3; border-radius: 3px; color: #bebfc3; cursor: pointer; display: block; height: 44px; margin: 0;overflow: hidden;
+ padding: 7px 15px; position: relative;  text-align: left;  width: 100% !important; background:#fff;}
+
+ .row.remove-margin {
+    margin-bottom: -5px;
+}
+/* sachi*/
+.add-samplet-row, .remove-samplet-row {display: inline-block; padding: 14px 15px;}
+ 
+.three .selectboxit-container span, .three .selectboxit-container .selectboxit-options a, .six .selectboxit-container span, .six .selectboxit-container .selectboxit-options a, .four .selectboxit-container span, .four .selectboxit-container .selectboxit-options a { color: #686868;  font: 13px/22px 'MyriadProRegular'; height: 38px !important;}
+#append_writein .custom-select div ul li {  color: #686868;
+    font: 13px/15px "MyriadProRegular"; text-transform: capitalize!important; }
+    #append_writein .custom-select div ul li:hover {background:none;color: #0056b8;
+}
+.three .selectboxit-container .selectboxit:focus{ border-color: #0056b8 !important;}
+.six .selectboxit-container .selectboxit:focus{ border-color: #0056b8 !important;}
+.four .selectboxit-container .selectboxit:focus{ border-color: #0056b8 !important;}
+input:focus{ border-color: #0056b8 !important;}
+.inner-form .form-group .form-row textarea:focus{ border-color: #0056b8 !important;}
+
+.three .selectboxit-container .selectboxit-options, .six .selectboxit-container .selectboxit-options, .four .selectboxit-container .selectboxit-options { border: 1px solid #bebfc3; border-radius: 0 0 3px 3px; box-shadow: none; box-sizing: border-box; cursor: pointer; display: none;
+ list-style: outside none none; margin: 0; min-width: 100% !important; padding: 0 0 0 15px; position: absolute; text-align: left; z-index: 999; background:#fff;}
+ .four-box{width:23%; float:left; margin-right:1%;}
+.six{ position:relative; width:58%; float:left;}
+.four{position:relative; width:40%; float:right; }
+.two{position:relative; width:49%; float:left; }
+.two:last-child{float:right;}
+.button-bottom{width:auto; margin-right:10px;}
+.button-bottom:last-child{float:left;}
+.save{ padding:15px 30px; color:#fff; border-radius:3px; cursor: pointer; background:#0056b8; border:1px solid #0056b8; font: 13px/13px 'MyriadProRegular';  }
+.exist{padding:15px 30px; color:#0056b8; border-radius:3px; background:#fff; cursor: pointer; font: 13px/13px 'MyriadProRegular'; border:1px solid #0056b8;}
+.calculate{padding:15px 0px 15px 30px; color:#0056b8; border-radius:3px; cursor: pointer; background:#fff; font: 13px/20px 'MyriadProRegular'; border:1px solid #fff;}
+.calculate img{float:left; vertical-align:middle; margin-right:8px;}
+.form-group:last-child{box-shadow:none;}
+
+.order-section h2{background:url(../images/order-li.png) left bottom repeat-x; padding:21px 10px 20px 30px; float:left; width:100%; font:16px/16px 'MyriadPro-Bold'; color:#293337;}
+.item-quantity{background:url(../images/order-li.png) left bottom repeat-x; padding:0px 0 9px 0; float:left; width:100%;}
+.psn-calcultor-save{ padding-bottom:10px; background:url(../images/order-li.png) left bottom repeat-x; margin-bottom:9px; float:left; width:100%;}
+.net-calcultor-save{ padding-bottom:10px; background:url(../images/order-li.png) left bottom repeat-x; margin-bottom:9px; float:left; width:100%;}
+.item-quantity p{width:100%; float:left; padding:4px 10px 4px 20px; color:#435158; font: 13px/18px 'MyriadProRegular';}
+.item-quantity p span{float:right;}
+.item-quantity p span strong{color:#435158; font:13px/18px 'MyriadPro-Bold';}
+.item-quantity p label {float:right;}
+.item-quantity p label img{float:right;display:block;height:20px; cursor: pointer;}
+.detail{background:url(../images/order-li.png) left bottom repeat-x; padding:9px 0 9px 0; float:left; width:100%;}
+.detail p{width:100%; float:left; padding:0px 15px 3px 30px; color:#435158; font: 13px/18px 'MyriadProRegular';}
+.detail p span{float:right;}
+.detail p strong, .detail p span strong{color:#435158; font:13px/18px 'MyriadPro-Bold';}
+
+.sub-total{background:#e6e8ea url(../images/order-li.png) left bottom repeat-x; padding:6px ; float:left; width:100%; margin-bottom: 15px;}
+.sub-total p{width:100%; float:left; padding:4px 15px ; color:#435158; font: 13px/18px 'MyriadProRegular';}
+.sub-total p span{display:inline-block; padding-left:10px;}
+.sub-total p strong, .sub-total p span strong{color:#435158; font:13px/18px 'MyriadPro-Bold';}
+.sub-total p:first-child{ border-bottom:1px solid #ccc;}
+.total{background: #eff1f4 none repeat scroll 0 0; bottom: 0;float: left;padding: 10px 0 26px;position: fixed;right: 0;text-align: center;width: 20.7%; }
+
+#profiding {float: left;padding-bottom: 0px;width: 100%;}
+.order-section  .mCSB_scrollTools {bottom: 0;height: auto;left:auto; position: absolute;right: 0;top: 0;width: 16px;}
+.total p{ text-transform:uppercase; color:#435158; font:14px/18px 'MyriadPro-Bold';}
+.total h3{ color:#435158; font:40px/42px 'MyriadPro-Bold'; padding-bottom:18px;}
+.total a{padding:13px 30px; color:#fff; border-radius:3px; cursor: pointer; background:#0056b8; border:1px solid #0056b8; font: 13px/13px 'MyriadProRegular'; margin-top:10px;}
+.mCSB_container{margin-right:15px !important;}
+
+.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all {text-transform: capitalize !important; max-height:250px; overflow-y:auto;background:#fff;}
+.ui-menu .ui-menu-item { padding: 3px 1em 0 0.4em!important;}
+.ui-autocomplete li a {color: #38445c;float: left;font: 13px/21px 'MyriadProRegular';padding: 0 0px;}
+.ui-autocomplete li:hover a{ color:#0056b8;}
+.ui-helper-hidden-accessible{display:none;}
+.parsley-errors-list li{ font:11px/15px "MyriadProRegular" !important; color:#f00 !important;}
+.selectboxit-container .selectboxit-options .selectboxit-option:hover a{color:#0056b8;}
+.selectboxit-container .selectboxit-options .selectboxit-option.selectboxit-selected a{color:#0056b8; }
+.inner-form .form-group .form-row label em{ color:#f00; position: relative;
+    top: -3px;}
+
+.next{ border: 1px solid #cfd1d2; border-top:none; border-right:none; border-left:none; padding:15px 20px !important; }	
+.next1{ background:#e2e4e7; border: 1px solid #fff; border-top:none; border-right:none; border-left:none; padding:15px 20px !important;}
+
+/* Prem Yadav - css (19-05-2017) */
+/*
+.addon-part-error ul {display:none;}
+.additional-part-error ul {display:none;}
+* */
+.verticals-heading{
+	color: #435158;
+	float: left;
+	font: bold 19px/21px "MyriadProRegular";
+	padding-bottom: 5px;
+	width: 100%;
+}
+.horizontals-heading{
+	color: #435158;
+	float: left;
+	font: bold 19px/21px "MyriadProRegular";
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+/*kapil-tygai-css*/
+.rope-product .half.second_row_rope{width:49%;margin-right:2%;}
+.add-hard-btn{ background: #0056b8 none repeat scroll 0 0;
+    border: 1px solid #0056b8;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font: 13px/13px "MyriadProRegular";
+    padding: 15px 30px;
+}
+.remove-hard-btn{ background: #0056b8 none repeat scroll 0 0;
+    border: 1px solid #0056b8;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font: 13px/13px "MyriadProRegular";
+    padding: 15px 30px;
+}
+/*Prem Css (25-07-2017)*/
+.editable-quote-description textarea{border: medium none;height: 100px;padding: 10px;resize: none;width: 100%;border:1px solid #c2c2c2;}
+.mark_for_review {
+    display: inline-block;
+    float: right;
+    z-index: 2;position:relative;
+}
+.mark_for_review > input {
+    float: left;
+    height: auto !important;
+    margin-right: 5px !important;
+    margin-top: 3px !important;
+    width: auto !important;
+}
+.margin-right{ float:right;}
+
+
+.add-item{ padding:10px 0px;  float:left; width:100%;}
+.item-number{ width:70%; float:left; position:relative; margin-right:10px;}
+.main-add-item ul{ /*margin-top:10px;*/ float: left;width: 100%;}
+.main-add-item ul li{ color: #435158;float: left;font: 13px/21px "MyriadProRegular"; text-transform:capitalize;padding-bottom: 10px;}
+.main-add-item ul li:first-child{ width:70%;  margin-right:10px;}
+
+.newadd-template .item-number{ width:74%; margin-right:2%; }
+.newadd-template.main-add-item ul li:first-child{ width:74%; margin-right:2%;}
+.download{display:none;}
+.download_proposal{display:none;}
+.top-head a.download{ display:none; float:right; margin-right:15px; color:#ffffff; font:13px/30px 'MyriadProRegular'; text-transform:uppercase;}
+.top-head a.download img{vertical-align:middle; margin-right:6px;}
+.create_quote{background: #0056b8  none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    font: 13px/30px "MyriadPro-Bold";
+    margin: 10px 15px 10px 0px;
+    padding: 2px 10px; }
+.quantity {
+  position: relative; float:left; width:17%;
+}
+.parsley-errors-list{clear:both; margin-top:0px !important;}
+.parsley-errors-list li{ width:auto !important;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+.main-add-item li em {
+    color: #f00;
+    position: relative;
+    top: -3px;
+}
+
+.quantity input {
+  
+  height: 38px;
+  line-height: 1.35;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid #bebfc3;
+     color: #686868;
+    font: 13px/13px "MyriadProRegular";
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #bebfc3;
+  width: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+  font-family: "MyriadProRegular" !important;
+  line-height:17px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 47%;
+  top: 0;
+  border-bottom: 1px solid #bebfc3;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: 4px;
+  height: 45%;
+}
+.item-number  .selectboxit-container ul li{ width:100%; margin:0px;}
+
+.add-hardware-row { display: inline-block;padding:19px 10px; text-align:center;}
+.remove-hardware-row{  display: inline-block;padding:19px 10px; text-align:center;}
+.selectboxit-container .selectboxit-options .selectboxit-option:hover a{color:#0056b8;}
+.selectboxit-container .selectboxit-options .selectboxit-option.selectboxit-selected a{color:#0056b8; }
+.inner-form .form-group .form-row label em{ color:#f00; position: relative;
+    top: -3px;}
+a.add-writein-row {
+    float: left;padding: 5px 2px;
+}
+.main_add{margin-top:10px;float: left;    width: 100%;}
+.append-inp {
+    width: 95%;
+    float: left;
+}.append-box-main {
+    float: left;
+    width: 100%; margin-bottom:10px;
+}
+     
+ a.remove-writein-row{ float: left;padding: 7px 2px;}
+ 
+ 
+/*s.k.Rajput-07-07-17 */
+.addproductoptionpage .row{ position:relative;}
+.addproductoptionpage .half:nth-child(2n+2){ margin-right:0 !important;}
+.addproductoptionpage .add-product-option{ right:-30px; top:30px; position:absolute; padding:10px;cursor:pointer;}
+.addproductoptionpage .remove-product-option{ right:-30px; top:8px; position:absolute;padding:10px; cursor:pointer;}
+ /*s.k.Rajput-07-07-17 */
+ 
+ @media screen and (max-width:1920px){
+.final_quote .top-head {
+    width: 76.2%;
+}
+}
+ @media screen and (max-width:1366px){
+ .final_quote .inner-form {
+    margin-left: 4%;
+    width: 87%;
+}
+     .final_quote .top-head {
+    width: 95%;
+}
+ .inner-form{width:87%; margin-left:5%; }
+ .top-head {padding-left: 4%;}
+ .order-section{display:none;}
+.final_quote .order-section{display:block;}
+.final_quote .form-section{ padding-right:20.7%;}
+ }
+.form-row.four-box.description-box {
+    width: 41%;
+}
+.form-row.four-box.quantity-box {
+    width: 15%;
+}
+.form-row.four-box.price-box {
+    width: 15%;
+}
+.custom-select a {
+    color: #b1b7bb!important;border-radius: 3px;}
+    
+.md-modal.in{visibility: visible;opacity: 1;}
+.md-modal.in .md-content{opacity: 1; transform: scale(1);}
+.modal-open  .modal-backdrop.in{ display:none;}
+.modal-open .md-overlay{visibility: visible; opacity: 1;}
+#modal-2 .md-content label{ display: block; font:14px/14px "MyriadProRegular" !important; padding-bottom:5px;}
+#modal-2 .md-content .pop-header h2{ font:28px/28px "MyriadPro-Bold" !important; color: #0056b8 !important; padding-bottom: 10px;}
+#modal-2 .md-content .pop-header span{ font:16px/16px "MyriadProRegular" !important; color: #4b4c58 !important;}
+#modal-2.row{ margin:0px;}
+#modal-2 .md-content .first{ width:100%; margin-right: 0px; padding: 0 3px; float:left}
+#modal-2 .md-content .select-area .first{ width:50%;}
+#modal-2 .md-content input{ height: 45px; font:14px/14px "MyriadProRegular" !important; border-color:#dbdcdd !important; color: #4f555a;}
+#modal-2 .md-content input.update-quote{ color: #fff; width: 100%; font:17px/17px "MyriadPro-Bold" !important; text-transform: uppercase; border-color: #0056b8 ;}
+#modal-2 .md-content .row{ margin:4px 0 6px;}
+#modal-2 .md-content{ border:none; width: 500px;}
+#modal-2 .md-content  .pop-main-cont{ border-radius: 4px; padding:0px 0 0px;}
+#modal-2 .md-content  .pop-main-cont .pop-body{padding:7px 37px 30px;}
+#modal-2 .md-content .pop-main-cont  .pop-header .md-close { top:22px; right:4%; color: #0056b8; background: none; position: absolute; border:none;}
+#modal-2 .md-content  .pop-main-cont .pop-header{padding:15px 40px 0px;}
+
+/* Add New Contact Details (14-07-2017) */
+
+#contact-new-modal .md-content label{ display: block; font:14px/14px "MyriadProRegular" !important; padding-bottom:5px;}
+#contact-new-modal .md-content .pop-header h2{ font:22px/22px "MyriadPro-Bold" !important; color: #0056b8 !important; padding-bottom: 10px;}
+#contact-new-modal .md-content .pop-header span{ font:16px/16px "MyriadProRegular" !important; color: #4b4c58 !important;}
+#contact-new-modal.row{ margin:0px;}
+#contact-new-modal .md-content .first{ width:100%; margin-right: 0px; padding: 0 3px; float:left}
+#contact-new-modal .md-content .select-area .first{ width:50%;}
+#contact-new-modal .md-content input{ height: 38px; font:14px/14px "MyriadProRegular" !important; border-color:#dbdcdd !important; color: #4f555a;}
+#contact-new-modal .md-content input.add-more-contact-btn{    background: #0056b8; color: #fff; width: 100%; font:17px/17px "MyriadPro-Bold" !important; text-transform: uppercase; border: 1px solid #0056b8  !important; border-radius: 3px;}
+#contact-new-modal .md-content .row{ margin:4px 0 6px;}
+.add-more-contact {cursor: pointer;margin-left: 6px;position: relative;z-index: 1;}
+.add-more-customer {cursor: pointer;margin-left: 6px;position: relative;z-index: 1;}
+#contact-new-modal .md-content{ border:none; width: 900px;}
+#contact-new-modal .md-content  .pop-main-cont{ border-radius: 4px; padding:0px 0 0px;}
+#contact-new-modal .md-content  .pop-main-cont .pop-body{padding:7px 37px 30px;}
+#contact-new-modal .md-content .pop-main-cont  .pop-header .md-close { top:22px; right:4%; color: #0056b8; background: none; position: absolute; border:none;}
+#contact-new-modal .md-content  .pop-main-cont .pop-header{padding:15px 40px 0px;}
+
+
+
+/*kapil-tygai-css*/
+.rope-product .half{ width:48%; margin-right:1%;}
+.rope-product .half .quantity{ width:32%;}
+.rope-product .half:nth-child(2){ margin-right:0px; width:45%;}
+
+.form-row.two.select1.drop_rope ul {
+   max-height: 100px !important;
+}
+.form-row.two.select1.drop_rope ul li {
+    float: none;
+    padding-bottom:0;
+}
+.rope-product .add-rope-row { display: inline-block; padding: 5px 10px;}
+.rope-product .remove-rope-row{display: inline-block;padding: 10px 10px;}
+.main-add-item.rope-section-heading ul li:first-child{width: 50%;}
+.main-add-item.rope-section-heading ul li:nth-child(2){width: 14%;}
+.main-add-item.rope-section-heading ul li{ margin-right: 1%;width: 15%;}
+.main-add-item.rope-section-heading .custom-select-open ul li { width:100% !important;}
+.main-add-item.rope-section-heading .select1 ul.selectboxit-options li{ width:100% !important;}
+
+/* New Testing code */
+.tooltip {
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    position: relative;
+    cursor:pointer;
+}
+.tooltip .tooltiptext::after {
+    border-color: #acb459 transparent transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left:15%;
+    margin-left: -5px;
+    position: absolute;
+    top: 100%;
+}
+
+.tooltip .tooltiptext {
+    background-color: #acb459;
+    border-radius: 6px;
+    bottom: 130%;
+    color: #fff;
+    left: 0px;
+    margin-left: 0px;
+    padding: 9px 10px;
+    position: absolute;
+    text-align: left;
+    visibility: hidden;
+    z-index: 1;
+    width:240px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+

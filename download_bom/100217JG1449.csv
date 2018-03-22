@@ -1,0 +1,6 @@
+"Sage Order#","Proposal Number",Tag#,Product,"Product Description","# of Nets","Item Description","Item Code",QuantityPerNet,TotalQuantity,UOM,Step,"Activity Code","Expected Labor Time","Total Expected Labor Time","Actual Labor Time","Shipping Location","Product Location","Inventory Location","Expected Shipping Date",LOT,Notes
+,100217JG1449,,ROCBLOC-10K,"10K RocBloc; Width:3.00 FT; Length: 4.00 FT; Mesh Color: Sand; ",1,"820SD HTPP Sand 2.5in Sq",212-060-08,12.36,12.36,SF,100,CUTS,0.01867,0.01867,,000,181,000,,,
+,100217JG1449,,ROCBLOC-10K,"10K RocBloc; Width:3.00 FT; Length: 4.00 FT; Mesh Color: Sand; ",1,"DNR900 Black 1/4in Polyester K",RPY14BKFR,12.36,12.36,SF,100,CUTS,0.01867,0.01867,,000,181,181,,,
+,100217JG1449,,ROCBLOC-10K,"10K RocBloc; Width:3.00 FT; Length: 4.00 FT; Mesh Color: Sand; ",1,"Webbing Polypropylene 2in Red",WPP200RD,6.6656,6.6656,FT,100,MSND,0.0875,0.0875,,000,181,000,,,
+,100217JG1449,,ROCBLOC-10K,"10K RocBloc; Width:3.00 FT; Length: 4.00 FT; Mesh Color: Sand; ",1,"Webbing Polypropylene 3in Black",WPP300BK,14.42,14.42,FT,200,MDBL,0.0875,0.0875,,000,181,000,,,
+,100217JG1449,,ROCBLOC-10K,"10K RocBloc; Width:3.00 FT; Length: 4.00 FT; Mesh Color: Sand; ",1,"BDZ 138 Polyester Black 1111 B",THPY138BK,14.42,14.42,FT,567,SEWT,0.035,0.035,,000,181,000,,,

@@ -1,0 +1,40 @@
+.data-table-dash { clear: both;  float: left;  width:96%; margin:25px;}
+.right-bar{width:100%; position:absolute; left:0; top:65px; padding-left:220px; box-sizing:border-box;}.top-head{width:100%; float:left; border-bottom:1px solid #e5e5e5;}
+.top-head h1{display:inline-block; padding-left:30px; color:#394347; font:20px/55px 'MyriadPro-Bold'; text-transform:capitalize;}
+.top-head a.print{float:right; margin-right:35px; color:#b1b7bb; font:13px/55px 'MyriadProRegular'; text-transform:uppercase;}
+.top-head a.print img{vertical-align:middle; margin-right:6px;}
+.form-group{width:100%; float:left; padding-bottom:14px; margin-bottom:15px; -webkit-box-shadow: 0 8px 6px -6px #ccc;  -moz-box-shadow: 0 8px 6px -6px #ccc; box-shadow: 0 8px 6px -6px #ccc; }
+.dash-box{float:left; background:#f4f7f8; position:relative; width:96%; margin:25px; box-sizing:border-box;}
+.dash-left{float:left; width:175px; position:absolute; left:0; top:0}
+.total-quotes{width:100%; float:left; background:#07adf0; border-radius:5px; text-align:center; padding:60px 0;}
+.first-chart-div {background: #f2f2f2 none repeat scroll 0 0;float: left;width: 100%;}
+.total-quotes h3{color:#fff; font:58px/60px 'MyriadProRegular';}
+.total-quotes p{ text-transform:uppercase; color:#fff; font:13px/18px 'MyriadPro-Bold';}
+.dash-right{float:right; width:100%; padding-left:190px;}
+.dash-right ul{float:left; list-style-type:none; display:block; width:100%;}
+.dash-right ul li:nth-child(7n){margin-right:2px; float:right;}
+.dash-right ul li{width:12.7%; height:92px; float:left; background:#ffffff; padding:15px 10px; margin-bottom:15px; margin-right:1.8%; border:1px solid #e6e8e8; border-radius:5px; text-align:center; background:#fff url(../images/dash-arrow.png) 94% 70px no-repeat; }
+.dash-right ul li h4{ color:#647283; font:40px/40px 'MyriadProRegular';}
+.dash-right ul li h4 span{ display:block; color:#abb2b8; font:12px/12px 'MyriadProRegular'; text-transform:uppercase;}
+.form-section{background:#f4f7f8; float:left; width:100%;}
+.data-table-dash #quote-web-table{ border-radius:5px; border:1px solid #dfe0e2;}
+.data-table-dash table.dataTable thead th, .data-table-dash table.dataTable thead td, .data-table-dash table.dataTable tbody td{border-bottom:1px solid #dfe0e2; }
+.data-table-dash table.dataTable thead th{color:#647283; font:12px/50px 'MyriadPro-Bold'; text-transform:uppercase; text-align:left; padding:0 10px;}
+.data-table-dash table.dataTable thead td, .data-table-dash table.dataTable tbody td{color:#647283; font:12px/50px 'MyriadProRegular'; text-align:left; padding:0 10px; }
+.data-table-dash #quote-web-table_info, .data-table-dash #quote-web-table_paginate, .data-table-dash #quote-web-table_length, .data-table-dash #quote-web-table_filter{display:none;}
+.dltandcreate{width:100%; float:left; margin-bottom:10px;}
+.dltandcreate a.dlt-icon{background:#fff; border:1px solid #dfe0e2; border-radius:5px; padding:9px 11px; float:left}
+.dltandcreate a.create-icon{ float:right; padding:10px 25px; color:#fff; border-radius:3px; cursor: pointer; background:#07adf0; border:1px solid #07adf0; font: 13px/13px 'MyriadPro-Bold';}
+
+.salesperson-dropdown.select1{ width:300px; position:relative;}
+.selectboxit-container .selectboxit { border: 1px solid #bebfc3; border-radius: 3px; color: #bebfc3; cursor: pointer; display: block; height: 44px; margin: 0;overflow: hidden;
+ padding: 7px 15px; position: relative;  text-align: left;  width: 100% !important; background:#fff;}
+ .selectboxit-container .selectboxit:after{background:url(../images/select-arrow.png) right center no-repeat; width:7px; height:4px; position:absolute; content:""; display:block; right:10px; top:17px;}
+.selectboxit-container span, .selectboxit-container .selectboxit-options a { color: #686868;  font: 13px/22px 'MyriadProRegular'; height: 38px !important;}
+.salesperson-dropdown .selectboxit-options { border: 1px solid #bebfc3; border-radius: 0 0 3px 3px; box-shadow: none; box-sizing: border-box; cursor: pointer; display: none;
+ list-style: outside none none; margin: 0; min-width: 100% !important; max-height:250px; overflow-y:auto; padding: 0 0 0 15px; position: absolute; text-align: left; z-index: 999; background:#fff;}
+
+.salesperson-dropdown .selectboxit-options li{ display:block; float:none;}
+
+.revenue-chart{ border-top: 1px solid #c0c0c0; float: left; width:100%;}
+

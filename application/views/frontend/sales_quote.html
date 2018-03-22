@@ -1,0 +1,404 @@
+
+	<html> 
+	<head> 
+	
+	
+	<!-- cHANGE THE LETTER SUBJECT FOR RECORDING PURPOSES IN THE ""SUBJECT" TAG TOWARDS THE BOTTOM --> 
+	<title>CustomNet InCord Quote </title> 
+	<meta name=vs_targetSchema content="http://schemas.microsoft.com/intellisense/ie5"/> 
+
+	<link type="text/css" href="http://incord.mywce.com/css/stylesheet.css" rel="stylesheet"/> 
+	<link type="text/css" href="http://incord.mywce.com/css/LetterTemplates.css" rel="stylesheet" media="all"/> 
+	<link type="text/css" href="http://incord.mywce.com/css/LetterTemplatesPrint.css" rel="stylesheet" media="print"/> 
+	<link type="text/css" href="http://incord.mywce.com/css/FooterCSS.css" rel="stylesheet" media="print"/> 
+	<script type="text/javascript" src="http://incord.mywce.com/js/LetterTemplates.js" language="javascript"></script> 
+	<style type="text/css"> 
+	<!-- 
+	.localhdr {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; font-weight: bold;} 
+	.textbold { font-family: Helvetica, Arial, sans-serif; font-size: 10pt; font-style: normal; font-weight: bold;} 
+	.textboxbold { font-family: Helvetica, Arial, sans-serif; font-size: 10pt; font-style: normal; font-weight: bold} 
+	.textbox8 { font-family: Helvetica, Arial, sans-serif; font-size: 8pt; font-style: normal; font-weight: normal} 
+	.textbox { font-family: Helvetica, Arial, sans-serif; font-size: 10pt; font-style: normal; font-weight: normal} 
+	.textboxbold8 { font-family: Helvetica, Arial, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold } 
+	.textboxbold11 { font-family: Helvetica, Arial, sans-serif; font-size: 11pt; font-style: normal; font-weight: bold } 
+	.textbold12 { font-family: Helvetica, Arial, sans-serif; font-size: 12pt; font-style: normal; font-weight: bold;color: gray } 
+	.textboxbold13 { font-family: Helvetica, Arial, sans-serif; font-size: 13pt; font-style: normal; font-weight: bold ; line-height: 25px} 
+	.text24 { font-family: Helvetica, Arial, sans-serif; font-size: 24pt; font-style: normal; font-weight: bold ; } 
+	.text14 { font-family: Helvetica, Arial, sans-serif; font-size: 14pt; font-style: normal; font-weight: normal ; } 
+	.text16 { font-family: Helvetica, Arial, sans-serif; font-size: 16pt; font-style: normal; font-weight: normal ; } 
+	
+	.prodtable td { border: 1px solid black; } 
+
+p {
+    font-family: Arial;
+    font-size: 10pt;
+    text-align: left;
+}
+.r1 {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+}
+div.pageWithoutBreak {
+    background-color: #ffffff;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    height: 11in;
+    margin: 0;
+    padding: 0.5in 0.25in 0.5in 0.5in;
+    width: 8.5in;
+}
+
+.text {
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+}
+	--> 
+	</style> 
+	<script type="text/javascript"> 
+	function lgety(e){ 
+	if ((e.screenY+200) < screen.height) 
+	{return e.screenY - 150;} 
+	else 
+	{return e.screenY-300;} 
+	} 
+	
+	function lgetx(e){ 
+	if ((e.screenX+200) < screen.width) 
+	{return e.screenX-150;} 
+	else 
+	{return e.screenX-300;}; 
+	} 
+	function lsetsave(){ 
+	try { 
+	top.frames['tdata'].document.forms[0].sv.value='yes'; 
+	document.getElementById('save_button').src='images/save_a.gif'; 
+	} 
+	catch(err) 
+	{ 
+	} 
+	} 
+	
+	function getselected_(fieldobj) { 
+	var ws = '' 
+	if (fieldobj.type == 'text') { 
+	ws = fieldobj.value; 
+	} 
+	if (fieldobj.type == 'password') { 
+	ws = fieldobj.value; 
+	} 
+	if (fieldobj.type == 'select-multiple') { 
+	for (var i=fieldobj.length-1; i>=0; i--) { 
+	if (fieldobj.options[i].selected) { 
+	if (ws == '') 
+	{ws = fieldobj.options[i].value} 
+	else 
+	{ws = fieldobj.options[i].value + '; ' + ws} 
+	} 
+	} 
+	} 
+	if (fieldobj.type == 'select-one') { 
+	ws = fieldobj.options[fieldobj.selectedIndex].value; 
+	} 
+	return ws; 
+	} 
+	
+	function ldosave(){ 
+	try { 
+	top.frames['tdata'].document.forms[0].sv.value='no'; 
+	} 
+	catch(err) 
+	{ 
+	} 
+	document.forms[0].submit(); 
+	} 
+	function submitpleasewait(fieldobj) { 
+	fieldobj.value = 'Please Wait' 
+	document.forms[0].submit(); 
+	} 
+	
+	function rtn_(fieldobj) { 
+	if (fieldobj.type == 'text') { 
+	return fieldobj.value; 
+	} 
+	if (fieldobj.type == 'password') { 
+	return fieldobj.value; 
+	} 
+	if (fieldobj.type == 'hidden') { 
+	return fieldobj.value; 
+	} 
+	if (fieldobj.type == 'select-one') { 
+	return fieldobj.options[fieldobj.selectedIndex].text; 
+	} 
+	if (fieldobj.type == 'textarea') { 
+	return fieldobj.value; 
+	} 
+	} 
+	function getbyid(fieldid) { 
+	return rtn_(document.getElementById(fieldid)); 
+	} 
+	function set_(wval,wfield,wfieldname) { 
+	try { 
+	var bhandled = false; 
+	if (wfield.type == 'text') { 
+	wfield.value=wval; 
+	bhandled = true; 
+	} 
+	if (wfield.type == 'hidden') { 
+	wfield.value=wval; 
+	bhandled = true; 
+	} 
+	if (wfield.type == 'select-one') { 
+	var matched = false; 
+	if (wval != '') { 
+	for (var j=wfield.options.length-1; j>=0; j--) { 
+	if (wfield.options[j].value.toLowerCase() == wval.toLowerCase()) { 
+	wfield.selectedIndex = j; 
+	matched = true; 
+	} 
+	} 
+	} 
+	if (! matched) { 
+	x = wfield.length; 
+	wfield.length=x+1; 
+	wfield.options[x].text=wval; 
+	wfield.options[x].value=wval; 
+	wfield.options[x].selected = 1; 
+	} 
+	bhandled = true; 
+	} 
+	if (wfield.type == 'textarea') { 
+	wfield.value=wval; 
+	bhandled = true; 
+	} 
+	if (wfield.type == 'checkbox') { 
+	if (wfield.value.toLowerCase()==wval.toLowerCase()) { 
+	wfield.checked = true;} 
+	else { 
+	wfield.checked = false;} 
+	bhandled = true; 
+	} 
+	} 
+	catch(err) 
+	{ 
+	alert('Error setting field '+wfieldname+'/'+wfield.type+', contact your WiredContact administrator (set_)'); 
+	} 
+	} 
+	</script> 
+	<script src="jscript.js" type="text/javascript"></script> 
+	
+	</head> 
+	<body id="bodyWindow" onload="bodyWindow_OnLoad()" onresize="bodyWindow_OnResize()" onscroll="bodyWindow_OnScroll()" noval> 
+	<form name="form1" action=wceweb.dll METHOD="POST"> 
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- posteditor/"c:\inetpub\incord\lettertemplates/quotes/quotelettertemplate.htm" --> 
+	<span style="font-family: Arial; font-size: 10pt;"><div class="pageWithoutBreak"> 
+	<p> 
+	<table width="95%"> 
+	<tbody><tr> 
+	<td> 
+	<a href="http://www.incord.com"><img src="http://incord.mywce.com/images/logo250.png" width="93" height="104" border="0/"></a></td> 
+	<td class="textbox8" valign="top"><p> 
+	InCord Ltd.<br> 
+	226 Upton Rd.<br> 
+	Colchester, CT &nbsp; 06415<br> 
+	860-537-1414<br> 
+	800-596-1066<br> 
+	fax 860-537-7393<br> 
+	<a href="http://www.incord.com">incord.com</a><br> 
+	</p> 
+	</td> 
+	<td style="width: 200" class="textbox8"></td> 
+	<td align="right"><p> 
+	
+	
+	
+	Robin Ritz<br> 
+	
+	Amusement Division<br> 
+	RobinR@InCord.com<br> 
+
+	860-537-1414 ext 118<br> 
+	direct 860-531-1047</p></td> 
+	<td valign="top"><img src="http://incord.mywce.com/signatures/amusement.gif" border="0/"> 
+	</td> 
+	</tr> 
+	</tbody></table> 
+	<table valign="top" width="95%" cellspacing="1" cellpadding="1" border="0"> 
+	<tbody><tr><td style="height: 20"></td></tr> 
+	<tr><td class="text14" colspan="3" align="center">Proposal ID: SIXF05-1250-20161209</td></tr> 
+	<tr><td style="height: 20"></td></tr> 
+	<tr><td class="textbox" style="width: 400" valign="top"> Date: December 9, 2016<br></td> 
+	<td class="textbox" valign="top" align="right">Terms: Net 30</td></tr> 
+	<tr><td class="textbox" style="width: 400" valign="top"> This proposal is valid for 30 days</td> 
+	<td class="textbox" valign="top" align="right">Current Lead time ARO: 7-10 days</td></tr> 
+	</tbody></table> 
+	<table valign="top" width="100%" cellspacing="1" cellpadding="1" border="0"> 
+	<tbody><tr><td style="height: 20"></td></tr> 
+	<tr><td class="textbox" width="40%" valign="top"> Bill To: SIXF05<br> 
+	 Six Flags Magic Mountain<br> 
+	 PO Box 5500<br> 
+	 Santa Clarita<br> 
+	 CA<br> 
+	</td> 
+	<td class="textbox" style="width=120" valign="top" nowrap=""> 
+	Contact:<br> 
+	Tel:  (661) 255-4100<br> 
+	Fax:  (661) 255-4100<br> 
+	 dmorales@sftp.com </td> 
+
+	<td class="textbox" width="30%" valign="top"> Ship To:<br> 
+	<br> 
+	</td></tr> 
+	</tbody></table> 
+	<!--Begin Quote Table--> 
+	<!-- ShowSubentity --> 
+	<table width="95%" cellspacing="0" cellpadding="2" border="0"> 
+	<tbody><tr><td style="height: 10"></td></tr> 
+	<tr style="background-color: #3366CC;"> 
+	<td class="textbold" style="border: 1px solid black; color: #FFFFFF" nowrap="" align="center">Quantity</td> 
+	<td class="textbold" style="border: 1px solid black; color: #FFFFFF" nowrap="" align="center">Item #</td> 
+	<td class="textbold" style="border: 1px solid black; color: #FFFFFF" nowrap="" align="center">Description</td> 
+	<td class="textbold" style="border: 1px solid black; color: #FFFFFF" nowrap="" align="center">Tag</td> 
+	<td class="textbold" style="border: 1px solid black; color: #FFFFFF" nowrap="" align="center">Unit Price</td> 
+	<td class="textbold" style="border: 1px solid black; color: #FFFFFF" nowrap="" align="center">Amount</td> 
+	</tr> 
+	<tr> 
+	<td class="r1" style="border: 1px solid black;" valign="top" nowrap="" align="center">1</td> 
+	<td class="r1" style="border: 1px solid black;" valign="top" nowrap="">1250</td> 
+	<td class="r1" style="border: 1px solid black;" valign="top">
+		 HTPP 2in Sq</br>	
+		 Width:  10.00 FT</br>
+		 Length:   10.00 FT</br>
+		 Mesh Color: Sand</br>
+		 Border: Polyester 5/32in Braided Cord AND HTPP ProManila Ultra-3  </br>
+	</td> 
+	<td class="r1" style="border: 1px solid black;" valign="top" nowrap="" align="center"></td> 
+	<td class="r1" style="border: 1px solid black;" valign="top" nowrap="" align="center">   267.57</td> 
+	<td class="r1" style="border: 1px solid black;" valign="top" nowrap="" align="right">   267.57</td> 
+	</tr> 
+	<tr> 
+	<td colspan="4"></td> 
+	<td class="localhdr" align="right">Subtotal:</td> 
+	<td class="localhdr" align="right">   267.57</td> 
+	</tr> 
+	<tr> 
+	<td colspan="2"></td> 
+	<td class="text" colspan="2" align="right">PPD GRD</td> 
+	<td class="text" align="right">Freight:</td> 
+	<td class="text" align="right">    32.70</td> 
+	</tr> 
+	<tr> 
+	<td colspan="2"></td> 
+	<td class="localhdr" colspan="3" align="right">Total:</td> 
+	<td class="localhdr" align="right">300.27</td> 
+	</tr> 
+	</tbody></table> 
+	<table valign="bottom" class="textbox8" width="95%" cellspacing="1" cellpadding="1" border="0"> 
+	<tbody><tr><td colspan="3"> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	</td></tr><tr><td colspan="3" class="textbox"> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	&nbsp;<br> 
+	</td></tr> 
+	<tr><td class="textboxbold11" nowrap="">FOB: Colchester, CT</td> 
+	<td style="Width: 225" align="center"></td> 
+	<td class="textboxbold11" align="right">Commercial Address</td></tr> 
+	<tr><td style="height: 5 colspan=3"></td></tr> 
+	<tr><td class="textbox8" colspan="2">InCord must be advised if any of the following delivery options apply to shipments:<br> 
+	lift gate, residential, guaranteed, job site or notification/appointment.<br> 
+	Additional Charges will apply.</td> 
+	<td class="textbox8" nowrap="" align="right">Sale may be subject to Sales Tax<br>without a sales tax exemption form on file.<br>We accept Visa, Master Card and AMEX</td><td> 
+	</td></tr> 
+	<tr><td style="Height: 20" colspan="3">&nbsp;</td></tr> 
+	<tr> 
+	<td class="textbox8">Page 1 of 1</td> 
+	<td style="Width: 375" align="center"><img src="images/transpxl.gif" width="73" height="1">Custom Safety Netting Solutions </td> 
+	<td align="right"><a href="http://www.incord.com">incord.com</a></td> 
+	</tr> 
+	</tbody></table> 
+	</p></div></span> 
+	
+	<!-- /posteditor --> 
+	
+	
+	<!--End Quote Table THIS SHOULD BE THE FOOTER--> 
+	
+	
+	<!-- Press to Prepare Section --> 
+	<div class="pressToPrepare" id="divPrepare" style="display: none;"> 
+	<div id="divTitleBar" class="titleBar"> 
+	<span id="spnTitleBar" class="titleBar" onmousedown="spnTitleBar_OnMouseDown(this)" onmouseup="spnTitleBar_OnMouseUp(this)" onmousemove="spnTitleBar_OnMouseMove()">Edit Mode</span> 
+	<img id="imgClose" src="js/Images/Close.gif" onclick="imgClose_OnClick()" onmouseover="imgClose_OnMouseOver(this)" onmouseout="imgClose_OnMouseOut(this)" alt="Close this letter"/> 
+	</div> <!--divPrepare"--> 
+	<div id="divEditMode"> 
+	<p>Make any changes (if needed), select how to save this document, and then click the "Press to Prepare" button.</p> 
+	<hr style="width: 95%"/> 
+	</div> <!--divEditMode--> 
+	<div id="divPrepared" style="display: none;"> 
+	<p>Your letter is now ready to be printed. After printing has completed, please close this window.</p> 
+	<hr style="width: 95%"/> 
+	<p style="text-align: center"> 
+	<input id="cmdPrint" type="button" value=" Print... " onclick="cmdPrint_OnClick()" name="cmdPrint"/> 
+	</p> 
+	</div> <!--divPrepared--> 
+	<div id="divPrepareTable"> 
+	
+	
+	
+	
+	
+	
+	
+	
+	</div> <!--divPrepareTable--> 
+	<input type=hidden name=attachment id=attachment value=""> 
+	<input type=hidden name=seid id=seid value="udg3fj4387e9fne6"> 
+	<input type=hidden name=eid id=eid value="7bg3u9d2ps5ha4i6"> 
+	<input type=hidden name=etable id=etable value="wce_contact"> 
+	<input type=hidden name=lup id=lup value=""> 
+	<input type=hidden name=updated id=updated value="true"> 
+	<input type=hidden name=template id=template value="c:\inetpub\incord\lettertemplates/quotes/quotelettertemplate.htm"> 
+	<input type=hidden name=subject id=subject value=""> 
+	<input type=hidden name=wcfunction id=wcfunction value="editletter"> 
+	<input type=hidden name=templatetype id=templatetype value="letter"> 
+	<input type=hidden name=newfolder id=newfolder value=""> 
+	<input type=hidden name=dname id=dname value="Quote Cover Letter"> 
+	<input type=hidden name=emailtemplate id=emailtemplate value="Library\Public EMail Templates\Quotes\QuoteCoverLetter.weml"> 
+	<input type=hidden name=emaillinktemplate id=emaillinktemplate value="Library\Public EMail Templates\Quotes\QuoteCoverLetterLink.weml"> 
+	<input type=hidden name="ProposalID" id="ProposalID" value="120216RR024"> 
+	<input type=hidden name=param id=param value="ProposalID"> 
+	<input id=editmode_ name=editmode_ value=n type=hidden> 
+	</body> 
+	</html>
+
+		
+

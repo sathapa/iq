@@ -1,0 +1,116 @@
+span.multiselect-native-select {
+    position: relative
+}
+
+span.multiselect-native-select select {
+    border: 0!important;
+    clip: rect(0 0 0 0)!important;
+    height: 1px!important;
+    margin: -1px -1px -1px -3px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+    left: 50%;
+    top: 30px
+}
+
+.multiselect-container {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+     max-height: 234px;
+     overflow-x: hidden;
+     overflow-y: auto;
+}
+
+.multiselect-container .input-group {
+    margin: 5px
+}
+
+.multiselect-container>li {
+    padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group label {
+    margin: 0;
+    padding: 3px 20px 3px 20px;
+    height: 100%;
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+    cursor: pointer
+}
+
+.multiselect-container>li>a {
+    padding: 0
+}
+
+.multiselect-container>li>a>label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 20px 3px 40px
+}
+
+.multiselect-container>li>a>label.radio,
+.multiselect-container>li>a>label.checkbox {
+    margin: 0
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+    margin-bottom: 5px;
+    width:auto!important;
+    height: auto!important;
+}
+.btn-group{width: 100%;}
+.btn-group .multiselect{   border: 1px solid #bebfc3;
+    border-radius: 3px;
+    color: #7c7c7c;
+    font: 13px/13px "MyriadProRegular";
+    height: 38px;
+     text-align: left;
+    padding: 2px 10px;
+    resize: none;
+    width: 100%; position: relative;}
+    .btn-group .multiselect::after {
+    background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center;
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    width: 7px;
+}
+.btn-group .multiselect .caret{display: none;}
+.btn-default:hover{background: #fff!important;}
+.btn-default:focus{background: #fff!important;border-color: #0090d3!important; box-shadow:none}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default { background-color: #fff;
+    border-color:#0090d3!important;
+    }
+    .btn-group.open .dropdown-toggle {box-shadow: none;}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox,
+.form-inline .multiselect-container label.radio {
+    padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.form-inline .multiselect-container li a label.radio input[type=radio] {
+    margin-left: -20px;
+    margin-right: 0
+}

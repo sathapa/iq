@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0; outline:0; box-sizing:border-box;}.nobdr { border:none !important;}
+.nobg { background:none !important;}
+.nobdr_top{ border-top:none !important; }
+.nomargin { margin:0px !important;}
+.nomargin-top{margin-top:0 !important; }
+.nomargin-left { margin-left:0px !important;}
+.nomargin-right { margin-right:0px !important;}
+.nopadding { padding:0px !important;}
+.alignbottom{ vertical-align:text-top;}img { height: auto; border:0;}
+ul { list-style-type:none; padding:0; margin:0;}
+ul li { list-style:none; padding:0; margin:0; }
+a { text-decoration:none; outline:none;}
+
+.clear { padding:0; margin:0; clear:both;}
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0;}
+html, body { height: 100%; width: 100%; padding: 0; margin: 0;}
+.cf:before, .cf:after { content: " "; display: table;}
+.cf:after { clear: both;}
+.cf { *zoom: 1;}
+body { margin:0px; padding:0px; width:100%; overflow-x:hidden; position:relative;}
+html { margin:0px; padding:0px; }
+
+
+@font-face {
+    font-family:'Aileron Light';
+    src: url('fonts/Aileron Light.eot');
+	src: url('fonts/Aileron Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Aileron Light.woff2') format('woff2'),
+		url('fonts/Aileron Light.woff') format('woff'),
+		url('fonts/Aileron Light.svg#Aileron Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+@font-face {
+    font-family: 'AileronLightItalic';
+    src: url('fonts/AileronLightItalic.eot');
+    src: url('fonts/AileronLightItalic.eot') format('embedded-opentype'),
+         url('fonts/AileronLightItalic.woff2') format('woff2'),
+         url('fonts/AileronLightItalic.woff') format('woff'),
+         url('fonts/AileronLightItalic.ttf') format('truetype'),
+         url('fonts/AileronLightItalic.svg#AileronLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'AileronRegular';
+    src: url('fonts/AileronRegular.eot');
+    src: url('fonts/AileronRegular.eot') format('embedded-opentype'),
+         url('fonts/AileronRegular.woff2') format('woff2'),
+         url('fonts/AileronRegular.woff') format('woff'),
+         url('fonts/AileronRegular.ttf') format('truetype'),
+         url('fonts/AileronRegular.svg#AileronRegular') format('svg');
+}
+@font-face {
+    font-family: 'AileronBold';
+    src: url('fonts/AileronBold.eot');
+    src: url('fonts/AileronBold.eot') format('embedded-opentype'),
+         url('fonts/AileronBold.woff2') format('woff2'),
+         url('fonts/AileronBold.woff') format('woff'),
+         url('fonts/AileronBold.ttf') format('truetype'),
+         url('fonts/AileronBold.svg#AileronBold') format('svg');
+}
+@font-face {
+    font-family: 'AileronSemiBold';
+    src: url('fonts/AileronSemiBold.eot');
+    src: url('fonts/AileronSemiBold.eot') format('embedded-opentype'),
+         url('fonts/AileronSemiBold.woff2') format('woff2'),
+         url('fonts/AileronSemiBold.woff') format('woff'),
+         url('fonts/AileronSemiBold.ttf') format('truetype'),
+         url('fonts/AileronSemiBold.svg#AileronSemiBold') format('svg');
+}
+
+
+
+
+#wrapper{width:100%; float:left; padding:0px; margin:0px;}
+.sidebar{ width:220px; z-index:99; height:100%; position:fixed; float:left; background:#0090d3;}
+.logo{ width:100%; text-align:center; display:block; padding:43px 0; background:#0090d3;}
+#navside{width:100%;}
+#navside ul{list-style-type:none; display:block;} 
+#navside ul li{float:left; position:relative; width:100%; border-top:1px solid #1aa7e0;}
+#navside ul li a{ padding:22px 35px 22px 60px; display:block; color:#fff; box-sizing:border-box; font:13px/13px 'MyriadProRegular'; color:#fff; text-transform:uppercase; }
+#navside ul li ul.sub-menu{display:none;}
+#navside ul li ul.sub-menu li{background:url(../images/nav-li.png) 35px 21px no-repeat; }
+#navside ul.cd-navigation li.item-has-children > a::after {background: url(../images/li-nav-li.png) no-repeat scroll right top; bottom: auto; content: "";
+    display: block; height: 8px; position: absolute;  right: 30px; top: 57%;  transform: translateY(-50%); transition-duration: 0.2s; transition-property: transform;
+    width: 5px;}
+#navside ul.cd-navigation li.item-has-children > a.submenu-open::after { transform: translateY(-57%) rotate(90deg);}
+.right-bar{width:100%; position:absolute; left:0; top:65px; padding-left:220px; box-sizing:border-box;}
+.top-bar{width:100%; float:left; -webkit-box-shadow: 0 8px 6px -6px #ccc;  -moz-box-shadow: 0 8px 6px -6px #ccc; box-shadow: 0 8px 6px -6px #ccc; height:60px;}
+.user-profile{float:right; margin-right:20px; width:auto; margin-top:13px;}
+.user-profile a{color:#818f9f; font:13px/13px 'MyriadProRegular';}
+.user-profile a img{display:inline-block; vertical-align:middle; margin-right:7px;}
+.user-profile a span{display:inline-block; vertical-align:middle; margin-left:7px;}
+.form-section{float:left; width:75%;}
+.order-section{float:right; width:25%;}
+.top-head{width:100%; float:left; border-bottom:1px solid #e5e5e5;}
+.top-head h1{display:inline-block; padding-left:30px; color:#394347; font:20px/55px 'MyriadPro-Bold'; text-transform:capitalize;}
+.top-head a.print{float:right; margin-right:35px; color:#b1b7bb; font:13px/55px 'MyriadProRegular'; text-transform:uppercase;}
+.top-head a.print img{vertical-align:middle; margin-right:6px;}
+.form-group{width:100%; float:left; padding-bottom:14px; margin-bottom:15px; -webkit-box-shadow: 0 8px 6px -6px #ccc;  -moz-box-shadow: 0 8px 6px -6px #ccc; box-shadow: 0 8px 6px -6px #ccc; }
+.form-group h2{color:#293337; font:16px/30px 'MyriadPro-Bold';}
+.half{width:49%; float:left; position:relative;}
+.half + .half{float:right; position:relative;}
+.row{float:left; width:100%; margin-bottom:15px;}
+.inner-form{width:70%; margin-left:15%; float:left; padding:40px 0;}
+.inner-form .form-group .form-row label{color:#435158; font:13px/21px 'MyriadProRegular'; padding-bottom:5px; float:left; width:100%;}
+.inner-form .form-group .form-row input{ width:100%; height:44px; border-radius:3px; border:1px solid #bebfc3; padding:0 10px;}
+.inner-form .form-group .form-row select{ width:100%; height:44px; border-radius:3px; border:1px solid #bebfc3; padding:0 10px;}
+
+
+.selectboxit-container .selectboxit { border: 1px solid #bebfc3; border-radius: 3px; color: #bebfc3; cursor: pointer; display: block; height: 44px; margin: 0;overflow: hidden;
+ padding: 0 0 0 15px; position: relative;  text-align: left;  width: 100% !important; background:#fff;}
+ .selectboxit-container .selectboxit:after{background:url(../images/select-arrow.png) right center no-repeat; width:7px; height:4px; position:absolute; content:""; display:block; right:15px; top:22px;}
+.selectboxit-container span, .selectboxit-container .selectboxit-options a { color: #bebfc3;  font: 13px/44px 'MyriadProRegular'; height: 44px !important;}
+.selectboxit-container .selectboxit-options { border: 1px solid #bebfc3; border-radius: 3px; box-shadow: none; box-sizing: border-box; cursor: pointer; display: none;
+ list-style: outside none none; margin: 0; min-width: 100% !important; padding: 0 0 0 15px; position: absolute; text-align: left; z-index: 999; background:#fff;}
+ 
+.three{width:32%; float:left; margin-right:2%; position:relative}
+.three:last-child{margin-right:0px;}
+.three .selectboxit-container .selectboxit, .six .selectboxit-container .selectboxit, .four .selectboxit-container .selectboxit { border: 1px solid #bebfc3; border-radius: 3px; color: #bebfc3; cursor: pointer; display: block; height: 44px; margin: 0;overflow: hidden;
+ padding: 0 0 0 15px; position: relative;  text-align: left;  width: 100% !important; background:#fff;}
+ 
+ 
+.three .selectboxit-container span, .three .selectboxit-container .selectboxit-options a, .six .selectboxit-container span, .six .selectboxit-container .selectboxit-options a, .four .selectboxit-container span, .four .selectboxit-container .selectboxit-options a { color: #bebfc3;  font: 13px/44px 'MyriadProRegular'; height: 44px !important;}
+
+
+
+.three .selectboxit-container .selectboxit-options, .six .selectboxit-container .selectboxit-options, .four .selectboxit-container .selectboxit-options { border: 1px solid #bebfc3; border-radius: 3px; box-shadow: none; box-sizing: border-box; cursor: pointer; display: none;
+ list-style: outside none none; margin: 0; min-width: 100% !important; padding: 0 0 0 15px; position: absolute; text-align: left; z-index: 999; background:#fff;}
+ 
+.six{ position:relative; width:58%; float:left;}
+.four{position:relative; width:40%; float:right; }
+.two{position:relative; width:49%; float:left; }
+.two:last-child{float:right;}
+ @media screen and (max-width:1366px){
+ 
+ .inner-form{width:84%; margin-left:8%; }
+ }

@@ -1,0 +1,4 @@
+Customer,SO#,Status,Reason,Salesperson,"Entered By","Order Date","Ship Date","CC Auth Date",Terms,"Total Amt",Balance,"Dep Reqd","Dep Recd"
+40-TTTI01,0091888,Hold,PMT,"Howard London",,2018-02-02,2018-02-07,,VISA,$718.83,$718.83,$718.83,$0.00
+50-KVCC01,0091118,Ordered,,"Robin Ritz",,2017-12-29,2018-02-19,2018-01-02,"American Express","$25,940.78",$0.00,"$25,940.78","$25,940.78"
+40-AJHE01,0090101,Hold,SHIP,"Howard London",,2018-02-16,2018-02-20,,"50% Prepaid / Balance Net 30","$2,776.00","$2,776.00","$1,388.00",$0.00

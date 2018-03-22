@@ -1,0 +1,1072 @@
+/*Model box style*/
+.open-model {overflow: hidden; padding-right: 17px;}
+.md-modal { padding-top: 45px;height: 100%;left: 50%;overflow-x: hidden;overflow-y: auto;position: fixed;top: 50%;visibility: hidden;width: 100%;z-index: 2000;-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);}
+.md-show {visibility: visible;}
+.md-overlay {position: fixed;width: 100%;height: 100%;visibility: hidden;top: 0;left: 0;z-index: 1000;opacity: 0;background: rgba(43,46,47,0.8);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
+.md-show ~ .md-overlay {opacity: 1;visibility: visible;}
+/* Content styles */
+.md-content { color: #ccc; background: #fff; position: relative;border-radius: 3px;margin: 0 auto; width:600px;  margin:auto;}
+.md-content h3 {margin: 0;padding: 0.4em;text-align: center;font-size: 2.4em;font-weight: 300;opacity: 0.8;background: rgba(0,0,0,0.1);border-radius: 3px 3px 0 0;}
+.md-content > div {background: #fff none repeat scroll 0 0; float:left;width:100%;padding: 15px 25px 30px;margin: 0;font-weight: 300;font-size: 1.15em; border-radius: 4px; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);}
+.md-content > div p {margin: 0;padding: 10px 0;}
+
+.md-content > div > .md-close {
+    border: medium none;
+    *border-radius: 50%;
+	background:#fff;
+    position: absolute;
+    top:10px; right:4%; color: #f00;
+	cursor: pointer;
+}
+.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all { text-transform: capitalize !important; max-height:250px; overflow-y:auto;background:#fff;}
+
+.ui-autocomplete li a {color: #38445c;float: left;font: 13px/18px 'MyriadProRegular';padding: 0 2px;}
+.ui-autocomplete li:hover a{ color:#0056b8 ;}
+.ui-helper-hidden-accessible{display:none;}
+.parsley-errors-list li{font:1.29vh "MyriadProRegular" !important; color:#f00 !important;}
+
+em{ color:#f00; position: relative;
+    top: -3px;}
+.md-content label{font: 1.39vh "MyriadPro-Bold"; color:#394347;}
+.md-content li strong{font: 1.39vh "MyriadPro-Bold"; color:#394347;}
+.md-content input {
+    border: 1px solid #dbdcdd;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+	margin-top:0px;
+	padding:0px 10px;
+	font:1.39vh "MyriadProRegular" !important;color: #767c80;
+}
+.md-content input[type='checkbox'] {
+    border: 1px solid #dbdcdd;
+    border-radius: 2px;
+    height: 20px;
+    width: 100%;
+	margin-top:0px;
+	padding:0px 10px;
+	font:1.39vh "MyriadProRegular" !important;color: #767c80;
+}
+
+.md-content input.update-quote {
+    background: #0056b8 ;
+    width: 150px;
+	color:#fff;
+	border:none;
+	border-radius:3px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.md-content input.clone_button {
+    background: #0056b8 ;
+    width: 150px;
+	color:#fff;
+	border:none;
+	border-radius:3px;
+	text-align:center;
+	cursor:pointer;
+}
+
+/* Play Button */
+.md-content .button1 {
+  box-sizing: #fff;
+  width: 12px;
+  height: 12px;
+  
+  border-color: #fff #fff #fff #0056b8;
+  transition: 100ms all ease;
+  will-change: border-width;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 6px 0px 6px 12px;
+}
+/* Pause Button */
+.md-content .button2 {
+  box-sizing: #fff;
+  width: 12px;
+  height: 12px;
+  
+  border-color: #fff #fff #fff #f00;
+  transition: 100ms all ease;
+  will-change: border-width;
+  cursor: pointer;
+  border-style: double;
+  border-width: 0px 0px 0px 12px;
+}
+
+.md-content span {  font-size: 14px;}
+.form-row.first.select1{ position:relative;}
+.add-an-activity.form-row.first.select1:after{ background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center;
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    right: 10px;
+    top: 44px;
+    width: 7px;
+}
+
+.form-row .one textarea{ width:100%; float:left; resize:none; border: 1px solid #dbdcdd; padding:10px; border-radius:3px; color: #767c80; font: 14px/14px "MyriadProRegular";}
+.form-row3.update-area .add-more-contact-btn{ border:none !important;background:#0056b8 !important;  color:#fff !important; float:right !important; border-radius:3px !important;}
+.arrow_top {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	background: url(../images/top_arr.png) no-repeat;
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+.form-row4 {
+    float: left;
+    padding-right: 10px;
+    width: 60%;
+}
+.form-row4 input{ float:left; width:70%;}
+.form-row4 label{ width:auto; float:left; margin-right:10px; padding-top:8px;}
+.form-row3 { width:20%; float:left;}
+.form-row3 > label{ width:auto; padding-top:8px;}
+.followup-checkbox{ width:auto !important; margin-right:8px !important; float:left!important;}
+.select1{position:relative;}
+.select2{position:relative;}
+#updateItemInfo .selectboxit-container span, #updateItemInfo .selectboxit-container .selectboxit-options a{font:14px/31px "MyriadProRegular" !important; color: #4f555a;  height:45px !important;}
+#updateItemInfo  .selectboxit-container .selectboxit{ border:1px solid #dbdcdd !important; }
+
+/* Individual modal styles with animations/transitions */
+/* Effect 1: Fade in and scale up */
+.md-effect-1 .md-content{-webkit-transform: scale(0.7);-moz-transform: scale(0.7);-ms-transform: scale(0.7);transform: scale(0.7);opacity: 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
+.md-content h2{color: #0056b8!important;
+    font: 28px/28px "MyriadPro-Bold"!important;
+    padding-bottom: 10px !important; float:left!important;}
+
+.md-show.md-effect-1 .md-content {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.add-an-activity .md-close {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #0056b8;
+    float: right;
+}
+.add-an-activity .first { margin-right:0px; float: left; width: 50%; padding:0px 3px;}
+.add-an-activity .md-content input{ border:1px solid #dbdcdd !important; margin:0px; padding:10px; height:38px;}
+.update-area.add-more-contact-btn{ border:none !important;}
+.input-fields {padding-left: 10px!important;}
+
+.add-an-activity.md-modal.md-effect-1.in {
+    visibility: visible;
+    z-index: 99991 !important;
+}
+
+.show-specification.md-modal.md-effect-1.in {
+    visibility: visible;
+    z-index: 99991 !important;
+}
+
+.display-contact-card.in.md-modal.md-effect-1 {
+    visibility: visible;
+    z-index: 99991 !important;
+}
+
+.modal-open .md-effect-1 .md-content{
+	opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease 0s;
+}
+
+/************add-new-customer-pop-up-css**********/
+.add-new-customer-create-quote-page.md-content{ width:1000px;}
+.add-new-customer-create-quote-page.md-content label {font: 12px/30px "MyriadPro-Bold";}
+.add-new-customer-create-quote-page .md-close { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none;  color: #0056b8; float: right;}
+.add-new-customer-create-quote-page .row{ margin-bottom:7px;}
+.add-new-customer-create-quote-page.md-content input { height: 30px; font: 11px/11px "MyriadProRegular" !important;}
+.add-new-customer-create-quote-page .selectboxit.selectboxit-enabled.selectboxit-btn{ height:30px !important; padding: 2px 15px !important;}
+.add-new-customer-create-quote-page.md-content span{font: 11px/24px "MyriadProRegular";}
+.add-new-customer-create-quote-page .selectboxit-container .selectboxit::after { top: 12px; }
+.add-new-customer-create-quote-page.md-content > div{padding: 5px 25px 5px;}
+.add-new-customer-create-quote-page.md-content h2 { font: 21px/23px "MyriadPro-Bold" !important;  padding-bottom: 2px !important;}
+.add-new-customer-create-quote-page .save{padding: 10px 30px;}
+	
+/************add-new-customer-pop-up-css-end**********/
+.add-an-activity.md-modal.md-effect-1.in .md-content{
+-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+/* Effect 2: Slide from the right */
+.md-effect-2 .md-content {
+	-webkit-transform: translateX(20%);
+	-moz-transform: translateX(20%);
+	-ms-transform: translateX(20%);
+	transform: translateX(20%);
+	opacity: 0;
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+	-moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+	transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+.md-show.md-effect-2 .md-content {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	opacity: 1;
+}
+
+/* Effect 3: Slide from the bottom */
+.md-effect-3 .md-content {
+	-webkit-transform: translateY(20%);
+	-moz-transform: translateY(20%);
+	-ms-transform: translateY(20%);
+	transform: translateY(20%);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-3 .md-content {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+/* Effect 4: Newspaper */
+.md-effect-4 .md-content {
+	-webkit-transform: scale(0) rotate(720deg);
+	-moz-transform: scale(0) rotate(720deg);
+	-ms-transform: scale(0) rotate(720deg);
+	transform: scale(0) rotate(720deg);
+	opacity: 0;
+}
+
+.md-show.md-effect-4 ~ .md-overlay,
+.md-effect-4 .md-content {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.md-show.md-effect-4 .md-content {
+	-webkit-transform: scale(1) rotate(0deg);
+	-moz-transform: scale(1) rotate(0deg);
+	-ms-transform: scale(1) rotate(0deg);
+	transform: scale(1) rotate(0deg);
+	opacity: 1;
+}
+
+/* Effect 5: fall */
+.md-effect-5.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-5 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(600px) rotateX(20deg); 
+	-moz-transform: translateZ(600px) rotateX(20deg); 
+	-ms-transform: translateZ(600px) rotateX(20deg); 
+	transform: translateZ(600px) rotateX(20deg); 
+	opacity: 0;
+}
+
+.md-show.md-effect-5 .md-content {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	-webkit-transform: translateZ(0px) rotateX(0deg);
+	-moz-transform: translateZ(0px) rotateX(0deg);
+	-ms-transform: translateZ(0px) rotateX(0deg);
+	transform: translateZ(0px) rotateX(0deg); 
+	opacity: 1;
+}
+
+/* Effect 6: side fall */
+.md-effect-6.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-6 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translate(30%) translateZ(600px) rotate(10deg); 
+	-moz-transform: translate(30%) translateZ(600px) rotate(10deg);
+	-ms-transform: translate(30%) translateZ(600px) rotate(10deg);
+	transform: translate(30%) translateZ(600px) rotate(10deg); 
+	opacity: 0;
+}
+
+.md-show.md-effect-6 .md-content {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	-webkit-transform: translate(0%) translateZ(0) rotate(0deg);
+	-moz-transform: translate(0%) translateZ(0) rotate(0deg);
+	-ms-transform: translate(0%) translateZ(0) rotate(0deg);
+	transform: translate(0%) translateZ(0) rotate(0deg);
+	opacity: 1;
+}
+
+/* Effect 7:  slide and stick to top */
+.md-effect-7{
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.md-effect-7 .md-content {
+	-webkit-transform: translateY(-200%);
+	-moz-transform: translateY(-200%);
+	-ms-transform: translateY(-200%);
+	transform: translateY(-200%);
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	opacity: 0;
+}
+
+.md-show.md-effect-7 .md-content {
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+	border-radius: 0 0 3px 3px;
+	opacity: 1;
+}
+
+/* Effect 8: 3D flip horizontal */
+.md-effect-8.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-8 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: rotateY(-70deg);
+	-moz-transform: rotateY(-70deg);
+	-ms-transform: rotateY(-70deg);
+	transform: rotateY(-70deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0;
+}
+
+.md-show.md-effect-8 .md-content {
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	opacity: 1;
+}
+
+/* Effect 9: 3D flip vertical */
+.md-effect-9.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-9 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: rotateX(-70deg);
+	-moz-transform: rotateX(-70deg);
+	-ms-transform: rotateX(-70deg);
+	transform: rotateX(-70deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0;
+}
+
+.md-show.md-effect-9 .md-content {
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+	opacity: 1;
+}
+
+/* Effect 10: 3D sign */
+.md-effect-10.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-10 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: rotateX(-60deg);
+	-moz-transform: rotateX(-60deg);
+	-ms-transform: rotateX(-60deg);
+	transform: rotateX(-60deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-10 .md-content {
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+	opacity: 1;
+}
+
+/* Effect 11: Super scaled */
+.md-effect-11 .md-content {
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-ms-transform: scale(2);
+	transform: scale(2);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-11 .md-content {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+/* Effect 12:  Just me */
+.md-effect-12 .md-content {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-12 ~ .md-overlay {
+	background: #e74c3c;
+} 
+
+.md-effect-12 .md-content h3,
+.md-effect-12 .md-content {
+	background: transparent;
+}
+
+.md-show.md-effect-12 .md-content {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+/* Effect 13: 3D slit */
+.md-effect-13.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-13 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(-3000px) rotateY(90deg);
+	-moz-transform: translateZ(-3000px) rotateY(90deg);
+	-ms-transform: translateZ(-3000px) rotateY(90deg);
+	transform: translateZ(-3000px) rotateY(90deg);
+	opacity: 0;
+}
+
+.md-show.md-effect-13 .md-content {
+	-webkit-animation: slit .7s forwards ease-out;
+	-moz-animation: slit .7s forwards ease-out;
+	animation: slit .7s forwards ease-out;
+}
+
+@-webkit-keyframes slit {
+	50% { -webkit-transform: translateZ(-250px) rotateY(89deg); opacity: .5; -webkit-animation-timing-function: ease-out;}
+	100% { -webkit-transform: translateZ(0) rotateY(0deg); opacity: 1; }
+}
+
+@-moz-keyframes slit {
+	50% { -moz-transform: translateZ(-250px) rotateY(89deg); opacity: .5; -moz-animation-timing-function: ease-out;}
+	100% { -moz-transform: translateZ(0) rotateY(0deg); opacity: 1; }
+}
+
+@keyframes slit {
+	50% { transform: translateZ(-250px) rotateY(89deg); opacity: 1; animation-timing-function: ease-in;}
+	100% { transform: translateZ(0) rotateY(0deg); opacity: 1; }
+}
+
+/* Effect 14:  3D Rotate from bottom */
+.md-effect-14.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-14 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateY(100%) rotateX(90deg);
+	-moz-transform: translateY(100%) rotateX(90deg);
+	-ms-transform: translateY(100%) rotateX(90deg);
+	transform: translateY(100%) rotateX(90deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.md-show.md-effect-14 .md-content {
+	-webkit-transform: translateY(0%) rotateX(0deg);
+	-moz-transform: translateY(0%) rotateX(0deg);
+	-ms-transform: translateY(0%) rotateX(0deg);
+	transform: translateY(0%) rotateX(0deg);
+	opacity: 1;
+}
+
+/* Effect 15:  3D Rotate in from left */
+.md-effect-15.md-modal {
+	-webkit-perspective: 1300px;
+	-moz-perspective: 1300px;
+	perspective: 1300px;
+}
+
+.md-effect-15 .md-content {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+	-moz-transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+	-ms-transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+	transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-15 .md-content {
+	-webkit-transform: translateZ(0px) translateX(0%) rotateY(0deg);
+	-moz-transform: translateZ(0px) translateX(0%) rotateY(0deg);
+	-ms-transform: translateZ(0px) translateX(0%) rotateY(0deg);
+	transform: translateZ(0px) translateX(0%) rotateY(0deg);
+	opacity: 1;
+}
+
+/* Effect 16:  Blur */
+.md-show.md-effect-16 ~ .md-overlay {
+	background: rgba(180,46,32,0.5);
+}
+
+.md-show.md-effect-16 ~ .container {
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.md-effect-16 .md-content {
+	-webkit-transform: translateY(-5%);
+	-moz-transform: translateY(-5%);
+	-ms-transform: translateY(-5%);
+	transform: translateY(-5%);
+	opacity: 0;
+}
+
+.md-show.md-effect-16 ~ .container,
+.md-effect-16 .md-content {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-16 .md-content {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+/* Effect 17:  Slide in from bottom with perspective on container */
+.md-show.md-effect-17 ~ .container {
+	height: 100%;
+	overflow: hidden;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}	
+
+.md-show.md-effect-17 ~ .container,
+.md-show.md-effect-17 ~ .md-overlay  {
+	-webkit-transform: rotateX(-2deg);
+	-moz-transform: rotateX(-2deg);
+	-ms-transform: rotateX(-2deg);
+	transform: rotateX(-2deg);
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.md-effect-17 .md-content {
+	opacity: 0;
+	-webkit-transform: translateY(200%);
+	-moz-transform: translateY(200%);
+	-ms-transform: translateY(200%);
+	transform: translateY(200%);
+}
+
+.md-show.md-effect-17 .md-content {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+	-webkit-transition: all 0.3s 0.2s;
+	-moz-transition: all 0.3s 0.2s;
+	transition: all 0.3s 0.2s;
+}
+
+/* Effect 18:  Slide from right with perspective on container */
+.md-show.md-effect-18 ~ .container {
+	height: 100%;
+	overflow: hidden;
+}
+
+.md-show.md-effect-18 ~ .md-overlay {
+	background: rgba(143,27,15,0.8);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.md-show.md-effect-18 ~ .container,
+.md-show.md-effect-18 ~ .md-overlay {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 50%;
+	-webkit-animation: rotateRightSideFirst 0.5s forwards ease-in;
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 0% 50%;
+	-moz-animation: rotateRightSideFirst 0.5s forwards ease-in;
+	transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+	animation: rotateRightSideFirst 0.5s forwards ease-in;
+}
+
+@-webkit-keyframes rotateRightSideFirst {
+	50% { -webkit-transform: translateZ(-50px) rotateY(5deg); -webkit-animation-timing-function: ease-out; }
+	100% { -webkit-transform: translateZ(-200px); }
+}
+
+@-moz-keyframes rotateRightSideFirst {
+	50% { -moz-transform: translateZ(-50px) rotateY(5deg); -moz-animation-timing-function: ease-out; }
+	100% { -moz-transform: translateZ(-200px); }
+}
+
+@keyframes rotateRightSideFirst {
+	50% { transform: translateZ(-50px) rotateY(5deg); animation-timing-function: ease-out; }
+	100% { transform: translateZ(-200px); }
+}
+
+.md-effect-18 .md-content {
+	-webkit-transform: translateX(200%);
+	-moz-transform: translateX(200%);
+	-ms-transform: translateX(200%);
+	transform: translateX(200%);
+	opacity: 0;
+}
+
+.md-show.md-effect-18 .md-content {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	opacity: 1;
+	-webkit-transition: all 0.5s 0.1s;
+	-moz-transition: all 0.5s 0.1s;
+	transition: all 0.5s 0.1s;
+}
+
+/* Effect 19:  Slip in from the top with perspective on container */
+.md-show.md-effect-19 ~ .container {
+	height: 100%;
+	overflow: hidden;
+}
+
+.md-show.md-effect-19 ~ .md-overlay {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.md-show.md-effect-19 ~ .container,
+.md-show.md-effect-19 ~ .md-overlay {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 100%;
+	-webkit-animation: OpenTop 0.5s forwards ease-in;
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 50% 100%;
+	-moz-animation: OpenTop 0.5s forwards ease-in;
+	transform-style: preserve-3d;
+	transform-origin: 50% 100%;
+	animation: OpenTop 0.5s forwards ease-in;
+}
+
+@-webkit-keyframes OpenTop {
+	50% { 
+		-webkit-transform: rotateX(10deg); 
+		-webkit-animation-timing-function: ease-out; 
+	}
+}
+
+@-moz-keyframes OpenTop {
+	50% { 
+		-moz-transform: rotateX(10deg); 
+		-moz-animation-timing-function: ease-out; 
+	}
+}
+
+@keyframes OpenTop {
+	50% { 
+		transform: rotateX(10deg); 
+		animation-timing-function: ease-out; 
+	}
+}
+
+.md-effect-19 .md-content {
+	-webkit-transform: translateY(-200%);
+	-moz-transform: translateY(-200%);
+	-ms-transform: translateY(-200%);
+	transform: translateY(-200%);
+	opacity: 0;
+}
+
+.md-show.md-effect-19 .md-content {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+	-webkit-transition: all 0.5s 0.1s;
+	-moz-transition: all 0.5s 0.1s;
+	transition: all 0.5s 0.1s;
+}
+
+.update-quote-header-create-quote-page.md-content{ width:800px !important;}
+.update-quote-header-create-quote-page .form-row.three{ width:33% !important; float:left; padding:0px 5px;}
+.update-quote-header-create-quote-page .form-row.first.update-area{ padding-top:20px !important;}
+.update-quote-header-create-quote-page .update-quote{ width:70% !important; margin-top:20px; float:right !important;}
+.update-quote-header-create-quote-page .pop-header span{ padding:7px 0px 0px 10px; float:left;}
+.create-clone-create-quote-page .pop-header span{ padding:7px 0px 0px 10px; float:left;}
+.update-quote-header-create-quote-page .selectboxit-container .selectboxit::after {background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center; content: ""; display: block; height: 4px;  position: absolute; right: 10px; top: 17px; width: 7px;}
+
+.display-contact-card.in .md-content > div { background:#ffffff; border-radius:12px;}
+.display-contact-card.in .md-close{ float:right; background:none; border:none; color:#000000;}
+.display-contact-card.in .img-section { background: #fff none repeat scroll 0 0;  float: left; width: 40%; border-radius:5px; margin:18px 25px 0px 0px;}
+.display-contact-card.in .img-section img{ width:100%;}
+.display-contact-card.in .content-section{ width:54%; float:left;}
+.display-contact-card.in .md-content h5 { font: 25px/28px "MyriadPro-Bold"; padding-bottom:5px; color:#000000; padding-top:4px;}
+.display-contact-card.in .md-content h5 span{font: 22px/28px "MyriadProRegular"; padding-left:5px; float:none;}
+.display-contact-card.in .form-row5 { width:45%; float:left; margin-right:10px;}
+.display-contact-card.in .content-section .form-row5 span{font: 14px/15px "MyriadProRegular"; color:#000; text-transform:capitalize; padding-bottom:4px;}
+.display-contact-card.in .content-section .form-row5 label{font: 18px/25px "MyriadProRegular"!important; color:#000 !important;}
+.display-contact-card.in .content-section .select-area span{font: 14px/18px "MyriadProRegular"; color:#000;}
+.display-contact-card.in .select-area .email{font: 18px/22px "MyriadProRegular"!important;}
+.display-contact-card.in .select-area span{font: 14px/18px "MyriadProRegular"; color:#000; text-transform:capitalize; padding-bottom:4px; float:left;}
+.display-contact-card.in .select-area label{font: 18px/22px "MyriadProRegular"!important; color:#000 !important;}
+.display-contact-card.in .select-area {float: left; padding-bottom:5px; width: 100%;}
+.display-contact-card .md-content{ width:600px;}
+.modal-open{ overflow:inherit; !important}
+.add-an-activity.in .selectboxit-container .selectboxit::after {
+    background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center;
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    width: 7px;
+}
+
+
+.show-specification .md-content label{padding-bottom:0px; margin-right:15px; float:left; width:35%; color:#000; font: 15px/18px "MyriadPro-Bold" !important;  padding-right:10px;}
+.show-specification .md-content span{ font: 15px/18px "MyriadProRegular"; color:#000;float:left; width:60%;}
+.show-specification .md-content{ width:400px;}
+.show-specification .md-close{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;  border: medium none;
+ color: #0056b8; float: right;}
+.show-specification .row.select-area { margin-top: 10px !important;}
+
+/* 05-02-2018 by Prem */
+
+.generate-pdf-view.md-modal.md-effect-1.in {
+    visibility: visible;
+    z-index: 99991 !important;
+}
+
+.generate-pdf-view .md-content label{padding-bottom:0px; margin-right:15px; float:left; width:35%; color:#000; padding-right:10px; cursor:pointer;}
+.generate-pdf-view .md-content span{ font: 15px/18px "MyriadProRegular"; color:#000;float:left; width:60%;}
+.generate-pdf-view .md-content{ width:600px;}
+.generate-pdf-view .md-close{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;  border: medium none;
+ color: #0056b8; float: right;}
+.generate-pdf-view .row.select-area { margin-top: 10px !important;}
+.generate-pdf-view{width: 100%;float: left;}
+.generate-pdf-view .md-content .half{ width:48%; float:left; margin-right:10px;}
+.generate-pdf-view .md-content .half label{ width:100%; padding-top:12px;}
+.generate-pdf-view .md-content checkbox {
+    border: 1px solid #dbdcdd;
+    border-radius: 2px;
+    height: 20px;
+    width: 50%;
+	margin-top:0px;
+	padding:10px;
+	font:14px/14px "MyriadProRegular" !important;color: #767c80;
+}
+.generate-pdf-view .md-content .half .col-sm-10{ padding:0px;}
+.custom-check {
+    float: left;
+    width: 10%; padding-top:10px;
+    
+}
+.custom-label {
+    float: left;
+    width: 80%;
+    padding-left: 10px; font: 14px/14px "MyriadProRegular";
+}
+/* 05-02-2018 by Prem */
+
+.contact-popup-form-alert-error-msg{margin-top:30px;}
+.contact-popup-form-alert-error-msg .close{ margin-top:10px;}
+
+#contact-new-modal .selectboxit-container .selectboxit{ height:30px !important;  padding: 4px 15px !important;}
+#contact-new-modal .selectboxit-container .selectboxit:after{ top:12px;}	
+#contact-new-modal .three .selectboxit-container .selectboxit, .six .selectboxit-container .selectboxit, .four .selectboxit-container .selectboxit{ height:30px !important;}
+#contact-new-modal .md-content input{ height:30px;  font: 11px/14px "MyriadProRegular" !important;}
+#contact-new-modal .md-content span {  font-size: 11px;}
+#contact-new-modal .form-row .one textarea{font: 11px/14px "MyriadProRegular";}
+#contact-new-modal .md-content label{font: 12px/20px "MyriadPro-Bold" !important;}
+.save.popup-new-contact-btn {
+    float: right;
+    margin-top: 25px;
+    padding: 8px 30px;
+}
+#contact-new-modal .three:last-child { float:right;}
+
+.item-code-specification-loader h3 { align-items: center; background: rgba(0, 0, 0, 0) none repeat scroll 0 0; 
+ font-size: 21px;  padding-top: 115px;   text-align: center; color:#a1a1a1;}
+ .item-code-specification-loader { float: left; min-height: 270px;  width: 100%;}
+ 
+ 
+.display-contact-card.in .select-area ul{ float:left; padding-top:10px;}
+.display-contact-card.in .select-area ul li { display: block; float: left; width: 100%; padding-bottom:7px;}
+.display-contact-card.in .select-area figure { float: left; padding-right:6px;}
+.display-contact-card.in .select-area p{ float:left; font: 14px/19px "MyriadProRegular"; color:#000000; padding:0px 0px !important;}
+.display-contact-card.in .select-area span{ float:left; padding:3px 0px 0px 5px; font: 14px/14px "MyriadProRegular" !important; color:#7f7f7f !important;} 
+.display-contact-card.in .row.select-area > h5{font: 14px/14px "MyriadProRegular" !important; color:#000000 !important; padding-bottom:5px !important;}
+.display-contact-card.in .row.select-area > label{font: 16px/18px "MyriadProRegular" !important; color:#000000 !important;}
+
+
+/******* Css for product option popup Start ****/
+.edit-product-option-popup .pop-header > span {  float: left;  margin: 5px 0 0 7px; }
+/******* Css for product option popup End ****/
+
+/* Css for add netform allowance popup form */
+.md-modal.md-effect-1.create-update-netform-allowance.in { visibility: visible;  z-index: 99991 !important;}
+.create-update-netform-allowance .md-close { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none;  color: #0056b8; float: right; margin-top:10px;}
+.create-update-netform-allowance .update-quote{ margin-top:10px; border:none !important;}
+.create-update-netform-allowance .md-content{ width:550px;}
+.create-update-netform-allowance .update-area{ clear:both;}
+.edit-product-option-popup .selectboxit-container .selectboxit{ border:1px solid #bebfc3; border-radius: 3px;}
+.edit-product-option-popup .selectboxit-container .selectboxit::after {
+	background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center;
+	content: "";
+	display: block;
+	height: 4px;
+	position: absolute;
+	right: 10px;
+	top: 17px;
+	width: 7px;
+}
+/* Clone Popup Css Product Option Page*/
+.clone-product-option-popup .md-close { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none;  color: #0056b8; float: right; margin-top:10px;}
+.clone-product-option-popup .selectboxit-container .selectboxit{ border:1px solid #bebfc3; border-radius: 3px;}
+.clone-product-option-popup .selectboxit-container .selectboxit::after {
+	background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center;
+	content: "";
+	display: block;
+	height: 4px;
+	position: absolute;
+	right: 10px;
+	top: 17px;
+	width: 7px;
+}
+
+.clone-product-option-popup .pop-header > span { font:16px/16px "MyriadProRegular" !important; color: #4b4c58 !important;  float: left;  margin: 5px 0 0 7px; }
+/* Display Sage Error Message Popup */
+.display-sage-error.in.md-modal.md-effect-1 {
+    visibility: visible;
+    z-index: 99991 !important;
+}
+.md-content .sage-warning{
+	color: #ea3939 !important;
+	font: 28px/28px "MyriadPro-Bold"!important;
+	padding-bottom: 10px !important; float:left!important;
+}
+.display-sage-error .md-close { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none;  color: #0056b8; float: right; margin-top:10px;}
+.display-sage-error > div p {margin: 0;padding: 10px 0;clear:both;color:#000;}
+
+/* Add labor rate popup Css*/
+.add-labor-rate.in.md-modal.md-effect-1 {
+	visibility: visible;
+	z-index: 99991 !important;
+}
+
+.add-labor-rate #updateItemInfo .selectboxit-container span, #updateItemInfo .selectboxit-container .selectboxit-options a{
+	color: #4f555a;
+	font: 14px/20px "MyriadProRegular" !important;
+	height: 38px !important;
+}
+.add-labor-rate .selectboxit-container .selectboxit{ border:1px solid #bebfc3; border-radius: 3px;}
+.add-labor-rate .selectboxit-container .selectboxit::after {
+	background: rgba(0, 0, 0, 0) url("../images/select-arrow.png") no-repeat scroll right center;
+	content: "";
+	display: block;
+	height: 4px;
+	position: absolute;
+	right: 10px;
+	top: 17px;
+	width: 7px;
+}
+
+/* Update sales order popup section */
+.update-sales-order-info.md-modal.md-effect-1.in {
+	visibility: visible;
+	z-index: 99991 !important;
+}
+.update-sales-order-info .md-close { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none;  color: #0056b8; float: right; margin-top:10px;}
+.update-sales-order-info .md-closepck { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none;  color: #0056b8; float: right; margin-top:10px;}
+
+.update-sales-order-info .form-row.two { float: left; padding: 0 10px;  width: 50%;}
+.update-sales-order-info .form-row.two > input { height: 38px;}
+.update-sales-order-info .form-row.one { padding: 0 10px;}
+.update-sales-order-info .form-row.three.update-area { padding: 0 10px;}
+.update-sales-order-info .update-quote{ margin-top:13px; border:none !important; float:right;}
+/* Row Change to Fit Play/Pause button1 and button2*/
+.update-sales-order-info .form-row.single{ float: left; padding: 0 -5px;  width: 2%;}
+.update-sales-order-info .form-row.single > input { height: 38px;}
+.update-sales-order-info .form-row.singlel { float: left; padding: -5px 10px;  width: 32%;}
+.update-sales-order-info .form-row.singlel > input { height: 38px;}
+.update-sales-order-info .form-row.singler { float: right; padding: 0 10px 0 10px;  width: 50%;}
+.update-sales-order-info .form-row.singler > input { height: 38px;}
+.update-sales-order-info .form-row.three.update-area { padding: 0 10px;}
+.update-sales-order-info .update-quote{ margin-top:13px; border:none !important; float:right;}
+.update-sales-order-info .button1{margin-top:13px;}
+.update-sales-order-info .button2{margin-top:13px;}
+.update-sales-order-info .md-content label{color:#435158  !important; font: bold 15px/24px 'MyriadProRegular' !important; padding-bottom:5px; float:left; width:100%;}
+.update-sales-order-info .md-content label_p{color:#435158  !important; font: 15px/24px 'MyriadProRegular' !important; padding-bottom:5px; float:left; width:100%;}
+.update-sales-order-info .md-content {color: #333; background: #fff; position: relative;border-radius: 3px;margin: 0 auto; width:600px;  margin:auto;}
+
+/* View Product Image Popup*/
+.show-product-image.md-modal.md-effect-1.in {
+    visibility: visible;
+    z-index: 99991 !important;
+
+}
+.show-product-image .md-close{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: medium none;
+	color: #0056b8; 
+	float: right;
+}
+
+#show-product-image .md-content{ width:350px;}
+#item-product-image > img{ width:75%; margin:40px 40px;}
+
+
+/** calulation-form-css 14-11-2017 **/
+
+.calculation_form {
+    float: left;
+    width: 100%;
+    padding: 10px; border:1px solid #dddddd;
+}
+.calculate-input {
+    float: left;
+    padding: 0 10px;
+    width: 32%;
+}
+.calculate-value {
+    float: left;
+    margin-top: 34px;
+    font-weight: bold;
+    color:#000;
+}
+.calculator-btn {
+     background: #0056b8 none repeat scroll 0 0;
+    border: 1px solid #0056b8;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font: 13px/13px "MyriadProRegular";
+    padding: 15px 30px;
+    margin-left: 165px; margin-top: 25px;
+    width: 200px;
+}
+
+
+ .display-calculator .md-close{  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #0056b8;
+    float: right;
+}
+
+.calcu-label{ float:left; font:15px/24px 'MyriadProRegular' !important; }
+
+
+@media screen and (max-width: 32em) {
+	body { font-size: 75%; }
+}

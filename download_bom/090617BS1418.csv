@@ -1,0 +1,17 @@
+"Sage Order#","Proposal Number",Tag#,Product,"Product Description","# of Nets","Item Description","Item Code",QuantityPerNet,TotalQuantity,UOM,Step,"Activity Code","Expected Labor Time","Total Expected Labor Time","Actual Labor Time","Shipping Location","Product Location","Inventory Location","Expected Shipping Date",LOT,Notes
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"820BK HTPP Black 2.5in Sq (Length=   42.00 FT, Width=   3.33 FT, Area =   149.43 SF, Mesh Count= 213 x   17)",218-060-06,153.91221,153.91221,SF,050,CUTS,0.12267,0.12267,,430,181,000,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Alum Ferrule 1/2in Soft Rope",AL1236,2,2,EA,060,FRP3,0.06667,0.06667,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Hog Ring 1-1/2in Galvanized",HR112G,78,78,EA,070,HOGR,0.26,0.26,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Polyester Braid 1/4in x 1000ft BlackPolyester Braid 1/4in x 1000ft",RPYB025BK,153.91221,153.91221,FT,200,MLGO,0.45333,0.45333,,430,181,000,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"HTPP ProManila 3 Strand 1/2in x 600ft BlackHTPP ProManila 3 Strand 1/2in",RPS3S050BK,153.91221,153.91221,FT,210,CWS,0.65712,0.65712,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"1/2in x 2in x 3.25in Mild Steel with Two 5/8in Drill Thrus1/2in x 2in x 3.25in Mild Stee",BN-CABLUG,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"3/8in x 45ft 7x19 GAC w/ Thimble Eye and Plate Assy, Tape other End
+3/8in x 45ft 7x19 GAC w/ Thimb",CAB3845BN,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"3/8 Cable Clamp",CC38G,6,6,EA,899,PACK,0.1,0.1,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Pad Eye 3/8 Weldable
+3/4"" I.D.Pad Eye 3/8 Weldable",PE38F,8,8,EA,899,PACK,0.13333,0.13333,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Quicklink 10mm ZP",QL10ZP,72,72,EA,899,PACK,1.2,1.2,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Snap Hook 80mm ZP",SH080ZP,10,10,EA,899,PACK,0.16667,0.16667,,430,181,000,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"Snap Hook 120mm ZP",SH120ZP,4,4,EA,899,PACK,0.06667,0.06667,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"1/2 x 6 Jaw  Eye Turnbuckle",TB126G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,
+,090617BS1418,,BNS38,"BayNets Safety System 3/8in Standard; Pit Size: 4.00 FT x 42.00 FT; Net Size 3.33 FT x   42.00 FT",1,"3/8 Galv Thimble",TM38G,2,2,EA,899,PACK,0.03333,0.03333,,430,181,181,,,

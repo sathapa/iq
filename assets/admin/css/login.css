@@ -1,0 +1,10 @@
+.loader-class {
+	height:50px;
+	display:none;
+}
+.loader-class img {
+	height:100%;
+}
+.display-loder{
+	display:block;
+}
